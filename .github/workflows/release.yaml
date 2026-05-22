@@ -32,8 +32,9 @@ jobs:
           persist-credentials: false
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
-      - name: Prepare output dir
+      - name: Prepare schemas
         run: |
+          nix develop -c just prepare
           mkdir -p out/site
           chmod 777 out/site
       - name: Render schemas + HTML site
