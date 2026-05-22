@@ -30,15 +30,15 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: DeterminateSystems/nix-installer-action@00199f951aeb9404028a6e4b95ad42546f73296a # main
+      - uses: DeterminateSystems/magic-nix-cache-action@908b263ff629f4cc17666315b7fd3ec127c6244d # main
       - name: Prepare schemas
         run: |
           nix develop -c just prepare
           mkdir -p out/site
           chmod 777 out/site
       - name: Render schemas + HTML site
-        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.519.317
+        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.519.317@sha256:9e1bb54c09f3d72614f2911eb00981f344dfcb9ad34b44bf396a200a69868806
         with:
           args: convert -d /github/workspace/out/_clean -o /github/workspace/out/site --render
       - name: Strip internal metadata before publish
