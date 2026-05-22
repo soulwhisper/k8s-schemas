@@ -1,5 +1,6 @@
 ---
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+# yamllint disable rule:truthy
 name: Pull Request
 
 on:
@@ -10,76 +11,31 @@ permissions:
   contents: read
 
 jobs:
-  changed:
-    name: Discover changed sources
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    outputs:
-      matrix: ${{ steps.matrix.outputs.matrix }}
-    steps:
-      - name: Get changed files
-        id: changed-files
-        uses: bjw-s-labs/action-changed-files@a9a36fb08ce06db9b02fbd8026cc2c0945eb9841 # v0.6.0
-        with:
-          patterns: |
-            sources/**
-
-      - name: Build matrix
-        id: matrix
-        # Each changed path looks like "sources/<org>/<repo>/(vendir|kind|extract).yaml".
-        # Splitting by '/' and taking [1:3] yields the same owner/repo for
-        # any filename, so unique_by(.name) dedupes when multiple change.
-        env:
-          CHANGED_FILES: ${{ steps.changed-files.outputs.changed_files }}
-        run: |
-          matrix=$(jq -c '
-            [ .[]
-              | (split("/") | .[1:3]) as $p
-              | {
-                  name: ($p | join("/")),
-                  dir:  ("sources/" + ($p | join("/"))),
-                  out:  ("out/crds/" + ($p | join("__")) + ".yaml"),
-                  artifact: ("crds-" + ($p | join("__")))
-                }
-            ] | unique_by(.name)
-          ' <<< "$CHANGED_FILES")
-          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
-
   build:
-    if: ${{ needs.changed.outputs.matrix != '[]' }}
-    needs:
-      - changed
-    name: Build ${{ matrix.source.name }}
+    name: Build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    strategy:
-      matrix:
-        source: ${{ fromJSON(needs.changed.outputs.matrix) }}
-      fail-fast: false
-      max-parallel: 10
     steps:
-      - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
-      - run: nix develop -c bash scripts/build.sh "${{ matrix.source.dir }}" "${{ matrix.source.out }}"
+      - name: Build schemas
+        run: nix develop -c just build
 
+  # Aggregator: always reports a status, so this is the single check to
+  # require in the branch ruleset. Stays green when build is skipped/passes,
+  # red when build fails.
   status:
     if: ${{ !cancelled() }}
-    needs:
-      - build
-    name: Build Success
+    needs: [build]
+    name: Status
     runs-on: ubuntu-latest
     permissions: {}
     steps:
-      - name: Any jobs failed?
-        if: ${{ contains(needs.*.result, 'failure') }}
-        run: exit 1
-
-      - name: All jobs passed or skipped?
-        if: ${{ !(contains(needs.*.result, 'failure')) }}
-        run: echo "${{ toJSON(needs.*.result) }}"
+      - name: Check upstream results
+        run: |
+          if [[ "${{ contains(needs.*.result, 'failure') }}" == "true" ]]; then
+            exit 1
+          fi
+          echo "ok"

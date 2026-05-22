@@ -1,14 +1,17 @@
 ---
 # yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+# yamllint disable rule:truthy
 name: Release
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
     paths:
-      - sources/**
-      - scripts/**
+      - schemas/_sources/**
+      - scripts/openapi2jsonschema.py
+      - justfile
+      - flake.nix
+      - flake.lock
       - .github/workflows/release.yaml
   workflow_dispatch:
 
@@ -20,117 +23,46 @@ permissions:
   contents: read
 
 jobs:
-  prepare:
-    name: Discover sources
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    outputs:
-      matrix: ${{ steps.matrix.outputs.matrix }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          persist-credentials: false
-
-      - name: Build matrix
-        id: matrix
-        # Enumerate sources/<owner>/<repo>/ and pre-compute everything a build
-        # step needs so the matrix step itself is trivial. Same shape as the
-        # discover step in pull-request.yaml.
-        run: |
-          matrix=$(find sources -mindepth 2 -maxdepth 2 -type d | sort \
-            | jq -R -s -c '
-              [ split("\n") | map(select(length > 0))[]
-                | (split("/") | .[1:3]) as $p
-                | {
-                    name: ($p | join("/")),
-                    dir:  ("sources/" + ($p | join("/"))),
-                    out:  ("out/crds/" + ($p | join("__")) + ".yaml"),
-                    artifact: ("crds-" + ($p | join("__")))
-                  }
-              ]
-            ')
-          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
-
   build:
-    needs:
-      - prepare
-    name: Build ${{ matrix.source.name }}
+    name: Build
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    strategy:
-      matrix:
-        source: ${{ fromJSON(needs.prepare.outputs.matrix) }}
-      fail-fast: false
-      max-parallel: 10
     steps:
-      - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
-      - run: nix develop -c bash scripts/build.sh "${{ matrix.source.dir }}" "${{ matrix.source.out }}"
-
-      - name: Upload CRDs artifact
-        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+      - name: Build schemas
+        run: nix develop -c just build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
-          name: ${{ matrix.source.artifact }}
-          path: ${{ matrix.source.out }}
-          if-no-files-found: error
-          retention-days: 1
+          path: out
 
   deploy:
-    needs:
-      - build
+    needs: build
     name: Deploy
     runs-on: ubuntu-latest
     permissions:
-      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-        with:
-          persist-credentials: false
-
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
-
-      - name: Render merged site
-        run: ./scripts/crd-extractor.sh convert -d out/crds -o out/site --render
-
-      - name: Configure Pages
-        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
-        with:
-          path: out/site
-
-      - name: Deploy
+      - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
 
   status:
     if: ${{ !cancelled() }}
-    needs:
-      - build
-      - deploy
-    name: Release Success
+    needs: [build, deploy]
+    name: Status
     runs-on: ubuntu-latest
     permissions: {}
     steps:
-      - name: Any jobs failed?
-        if: ${{ contains(needs.*.result, 'failure') }}
-        run: exit 1
-
-      - name: All jobs passed or skipped?
-        if: ${{ !(contains(needs.*.result, 'failure')) }}
-        run: echo "${{ toJSON(needs.*.result) }}"
+      - run: |
+          if [[ "${{ contains(needs.*.result, 'failure') }}" == "true" ]]; then
+            exit 1
+          fi
+          echo "ok"
