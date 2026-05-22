@@ -104,7 +104,8 @@ directories:
           url: https://github.com/external-secrets/external-secrets
           ref: v2.5.0
         includePaths:
-          - config/crds/bases/*.yaml
+          - config/crds/bases/external-*.yaml
+          - config/crds/bases/generators*.yaml
 
   # ---------------------------------------------------------
   # Folder : envoy-gateway
