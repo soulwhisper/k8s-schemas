@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: pr-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     name: Build
@@ -20,12 +24,34 @@ jobs:
           persist-credentials: false
       - uses: DeterminateSystems/nix-installer-action@00199f951aeb9404028a6e4b95ad42546f73296a # main
       - uses: DeterminateSystems/magic-nix-cache-action@908b263ff629f4cc17666315b7fd3ec127c6244d # main
-      - name: Build schemas
-        run: nix develop -c just build
 
-  # Aggregator: always reports a status, so this is the single check to
-  # require in the branch ruleset. Stays green when build is skipped/passes,
-  # red when build fails.
+      - name: Prepare schemas
+        run: |
+          nix develop -c just prepare
+          mkdir -p out/site
+          chmod 777 out/site
+
+      - name: Verify flatten output
+        run: |
+          test -d out/_clean || { echo "::error::out/_clean missing"; exit 1; }
+          n=$(find out/_clean -name '*.yaml' | wc -l)
+          echo "flattened $n CRD(s)"
+          test "$n" -gt 0 || { echo "::error::no CRDs flattened"; exit 1; }
+
+      - name: Render schemas + HTML site
+        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.519.317@sha256:9e1bb54c09f3d72614f2911eb00981f344dfcb9ad34b44bf396a200a69868806
+        env:
+          BASE_PATH: "/k8s-schemas"
+        with:
+          args: convert -d /github/workspace/out/_clean -o /github/workspace/out/site --render
+
+      - name: Verify rendered site
+        run: |
+          test -f out/site/index.html || { echo "::error::index.html missing"; exit 1; }
+          n=$(find out/site -name '*.json' -not -path '*/master-standalone/*' | wc -l)
+          echo "rendered $n schema(s)"
+          test "$n" -gt 0 || { echo "::error::no schemas rendered"; exit 1; }
+
   status:
     if: ${{ !cancelled() }}
     needs: build
