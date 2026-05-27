@@ -182,12 +182,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: fbd5dd335204e31380960750ec7f2051a939612d043e5bdc94059fffb18fcc12
+  - configDigest: 7b5600cf54350774bf84194c7d386e7ad3511da8159463d54895b8c00dab5059
     git:
-      commitTitle: 'chore(main): release 0.1.36 (#288)...'
-      sha: 0d4df7c128c229e7214da994af116ebc3b09072a
+      commitTitle: 'chore(main): release 0.1.37 (#294)...'
+      sha: a42cec09b5243d10fa673ae6f996970635e1d26b
       tags:
-      - 0.1.36
+      - 0.1.37
     path: .
   path: _sources/tuppr
 - contents:
