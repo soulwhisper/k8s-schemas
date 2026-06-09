@@ -259,6 +259,19 @@ directories:
           - helm/silence-operator/templates/crds.yml
 
   # ---------------------------------------------------------
+  # Folder : toolhive
+  # ---------------------------------------------------------
+  - path: _sources/toolhive
+    contents:
+      - path: .
+        lazy: true
+        git:
+          url: https://github.com/stacklok/toolhive
+          ref: v0.29.1
+        includePaths:
+          - deploy/charts/operator-crds/files/crds/*.yaml
+
+  # ---------------------------------------------------------
   # Folder : tuppr
   # ---------------------------------------------------------
   - path: _sources/tuppr
