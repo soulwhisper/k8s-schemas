@@ -1,12 +1,12 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: e0da2edebb2693cb92d92fcf0f44f1aae71f6b035d19c042813cc71e5e9616f4
+  - configDigest: 299020c1ce229d4aa926321200111ad489ee2861626fe7dc17ab498558bef50c
     git:
-      commitTitle: 'api: allow validation on older k8s versions (#1838)...'
-      sha: 6a2d02dbb35a289738d0fdba88e5a474e432a72a
+      commitTitle: 'ui: fix windows build (#2239)...'
+      sha: a5b96900d20369f7cd102a8fbd61da1bb8a27ba1
       tags:
-      - v1.2.1
+      - v1.3.0
     path: .
   path: _sources/agentgateway
 - contents:
@@ -73,12 +73,12 @@ directories:
     path: .
   path: _sources/external-secrets
 - contents:
-  - configDigest: 05b714b5ba5889db25152f1ebe7095d204709b1c0367d84728dcc74e732e4586
+  - configDigest: 80aa0730770dc016f56162d25729e18d605a7431c6d07a050172e073cd331fee
     git:
-      commitTitle: '[release/v1.8] cherry-pick v1.8.0 (#8970)...'
-      sha: f7306b38f1ec3551cdbcb33ea01ad0903f9157fa
+      commitTitle: '[release-1.8] cherry-pick release notes and version bump (#9174)...'
+      sha: 097ab899b9d041452d02f15d738514eda10ea21b
       tags:
-      - v1.8.0
+      - v1.8.1
     path: .
   path: _sources/envoy-gateway
 - contents:
@@ -181,6 +181,15 @@ directories:
       - v0.20.1
     path: .
   path: _sources/silence-operator
+- contents:
+  - configDigest: 93339ffc2bc783dad579a0d00898e32fec5841790b6ae06d9d31b2d5a0cec625
+    git:
+      commitTitle: Release v0.29.1 (#5453)...
+      sha: 83e9eaec177c85c791a337b8c99d2e43c06904a1
+      tags:
+      - v0.29.1
+    path: .
+  path: _sources/toolhive
 - contents:
   - configDigest: 7b5600cf54350774bf84194c7d386e7ad3511da8159463d54895b8c00dab5059
     git:
