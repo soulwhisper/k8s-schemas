@@ -164,12 +164,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: 400a213f65351ff52d702b074ae82610caa7f1badc4094042da683c53282a82d
+  - configDigest: bac744ad57e3178112ad6ed8a4d5292ac7272c66adfb89f4001d6a868fe5f1f0
     git:
-      commitTitle: 'Merge pull request #17611 from obnoxxx/prep-v1.19.6...'
-      sha: 7a84015d5d81890f82a4f9d01a30fb2c59e05ef2
+      commitTitle: 'Merge pull request #17767 from obnoxxx/prep-v1.20.1...'
+      sha: 6eab73f29700b60038d1f3f465e2d8b5b15eb479
       tags:
-      - v1.19.6
+      - v1.20.1
     path: .
   path: _sources/rook
 - contents:
@@ -182,7 +182,16 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 93339ffc2bc783dad579a0d00898e32fec5841790b6ae06d9d31b2d5a0cec625
+  - configDigest: feea2f0a62fe8483457a573167c27ebc829e9ea80a35e2f41b84d62a7b5df853
+    git:
+      commitTitle: Release v0.31.0 (#5628)...
+      sha: 493d030ed24b8c012db4c5717475a2386f5b72ce
+      tags:
+      - v0.31.0
+    path: .
+  path: _sources/toolhive
+- contents:
+  - configDigest: 7b5600cf54350774bf84194c7d386e7ad3511da8159463d54895b8c00dab5059
     git:
       commitTitle: Release v0.29.1 (#5453)...
       sha: 83e9eaec177c85c791a337b8c99d2e43c06904a1
