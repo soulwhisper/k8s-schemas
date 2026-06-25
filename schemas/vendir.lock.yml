@@ -10,12 +10,12 @@ directories:
     path: .
   path: _sources/agentgateway
 - contents:
-  - configDigest: 83b653edabfead1e1a844b3313923f34cce8dc404933ac6d17a8e5fd0964c6ae
+  - configDigest: 7d7a331de1149e5c786f0cb2786b1fd5cec167899856ff651c6cc981145f7948
     git:
-      commitTitle: 'Merge pull request #8704 from erikgb/1-20-fix-vuln-go-deps...'
-      sha: e5b7b18450dd2c4b993b95bcd680b1a057205b00
+      commitTitle: 'Merge pull request #8940 from wallrj-cyberark/restrict-edit-clusterrole-rbac-release-1.20...'
+      sha: 1e1d16d1744e6d9c80e464e58e8d9ab1caed222b
       tags:
-      - v1.20.2
+      - v1.20.3
     path: .
   path: _sources/cert-manager
 - contents:
