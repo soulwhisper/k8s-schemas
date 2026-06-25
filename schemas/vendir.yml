@@ -136,7 +136,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/notification-controller
-          ref: v1.8.4
+          ref: v1.9.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: kustomize-controller
