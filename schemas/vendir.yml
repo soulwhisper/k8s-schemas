@@ -11,7 +11,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/agentgateway/agentgateway
-          ref: v1.3.0
+          ref: v1.3.1
         includePaths:
           - controller/install/helm/agentgateway-crds/templates/*.yaml
 
@@ -37,7 +37,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cilium/cilium
-          ref: v1.19.4
+          ref: v1.19.5
         includePaths:
           - pkg/k8s/apis/cilium.io/client/crds/v2alpha1/*.yaml
           - pkg/k8s/apis/cilium.io/client/crds/v2/*.yaml
@@ -51,7 +51,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/ClickHouse/clickhouse-operator
-          ref: v0.0.5
+          ref: v0.0.6
         includePaths:
           - config/crd/bases/*.yaml
 
@@ -78,7 +78,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/dragonflydb/dragonfly-operator
-          ref: v1.5.0
+          ref: v1.6.1
         includePaths:
           - charts/dragonfly-operator/templates/crds.yaml
 
@@ -102,7 +102,7 @@ directories:
       - path: .
         git:
           url: https://github.com/external-secrets/external-secrets
-          ref: v2.5.0
+          ref: v2.6.0
         includePaths:
           - config/crds/bases/external-*.yaml
           - config/crds/bases/generators*.yaml
@@ -116,7 +116,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/envoyproxy/gateway
-          ref: v1.8.0
+          ref: v1.8.1
         includePaths:
           - charts/gateway-crds-helm/templates/generated/*.yaml
 
@@ -129,28 +129,28 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/helm-controller
-          ref: v1.5.5
+          ref: v1.6.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: notification-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/notification-controller
-          ref: v1.8.4
+          ref: v1.9.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: kustomize-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/kustomize-controller
-          ref: v1.8.5
+          ref: v1.9.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: source-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/source-controller
-          ref: v1.8.5
+          ref: v1.9.0
         includePaths:
           - config/crd/bases/*.yaml
 
@@ -174,7 +174,7 @@ directories:
       - path: .
         git:
           url: https://github.com/grafana/grafana-operator
-          ref: v5.23.0
+          ref: v5.24.0
         includePaths:
           - deploy/helm/grafana-operator/files/crds/*.yaml
 
@@ -199,7 +199,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kgateway-dev/kgateway
-          ref: v2.3.1
+          ref: v2.3.4
         includePaths:
           - install/helm/kgateway-crds/templates/*.yaml
 
@@ -305,6 +305,6 @@ directories:
       - path: .
         git:
           url: https://github.com/backube/volsync
-          ref: v0.15.0
+          ref: v0.16.0
         includePaths:
           - config/crd/bases/*.yaml
