@@ -1504,6 +1504,15 @@ spec:
                 x-kubernetes-validations:
                 - message: invalid duration value
                   rule: matches(self, '^([0-9]{1,5}(h|m|s|ms)){1,4}$')
+              maxHeadersCount:
+                description: |-
+                  MaxHeadersCount sets the maximum number of headers allowed in a request.
+                  Downstream requests that exceed this limit will receive a 431 response for HTTP/1.x and a
+                  stream reset for HTTP/2. If unset, defaults to Envoy's built-in default of 100.
+                  See here for more information: https://www.envoyproxy.io/docs/envoy/latest/api-v3/config/core/v3/protocol.proto#envoy-v3-api-field-config-core-v3-httpprotocoloptions-max-headers-count
+                format: int32
+                minimum: 1
+                type: integer
               maxRequestHeadersKb:
                 description: |-
                   MaxRequestHeadersKb sets the maximum size of request headers that Envoy will accept.
@@ -1547,6 +1556,17 @@ spec:
                 x-kubernetes-validations:
                 - message: invalid duration value
                   rule: matches(self, '^([0-9]{1,5}(h|m|s|ms)){1,4}$')
+              stripHostPortMode:
+                description: |-
+                  StripHostPortMode determines whether, and under what conditions, Envoy will strip the port
+                  from the Host/authority header. StripMatchingHostPort strips the port only if it matches
+                  the listener's own port. StripAnyHostPort strips the port unconditionally.
+                  See here for more information: https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto#envoy-v3-api-field-extensions-filters-network-http-connection-manager-v3-httpconnectionmanager-strip-matching-host-port
+                  See also: https://www.envoyproxy.io/docs/envoy/latest/api-v3/extensions/filters/network/http_connection_manager/v3/http_connection_manager.proto#envoy-v3-api-field-extensions-filters-network-http-connection-manager-v3-httpconnectionmanager-strip-any-host-port
+                enum:
+                - MatchingPort
+                - AnyPort
+                type: string
               targetRefs:
                 description: TargetRefs specifies the target resources by reference
                   to attach the policy to.
