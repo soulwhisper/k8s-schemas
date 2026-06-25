@@ -129,7 +129,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/helm-controller
-          ref: v1.5.5
+          ref: v1.6.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: notification-controller
