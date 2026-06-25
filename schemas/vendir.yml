@@ -267,7 +267,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/stacklok/toolhive
-          ref: v0.29.1
+          ref: v0.31.0
         includePaths:
           - deploy/charts/operator-crds/files/crds/*.yaml
 
