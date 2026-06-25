@@ -11,7 +11,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: pr-${{ github.event.pull_request.number || github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -19,32 +19,27 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         with:
           persist-credentials: false
-      - uses: DeterminateSystems/nix-installer-action@a7ad9c4f0c65208097f4d34f3cfa1913b80cce5c # main
-      - uses: DeterminateSystems/magic-nix-cache-action@76aaf8814cdb385b86597c32b8c51b66b69b0839 # main
-
+      - uses: DeterminateSystems/nix-installer-action@v22
       - name: Prepare schemas
         run: |
           nix develop -c just prepare
           mkdir -p out/site
           chmod 777 out/site
-
       - name: Verify flatten output
         run: |
           test -d out/_clean || { echo "::error::out/_clean missing"; exit 1; }
           n=$(find out/_clean -name '*.yaml' | wc -l)
           echo "flattened $n CRD(s)"
           test "$n" -gt 0 || { echo "::error::no CRDs flattened"; exit 1; }
-
       - name: Render schemas + HTML site
         uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.609.12656@sha256:f1be1370500884688250005661dfc15da2e0663e64bc1804ef9027548cf1c168
         env:
           BASE_PATH: "/k8s-schemas"
         with:
           args: convert -d /github/workspace/out/_clean -o /github/workspace/out/site --render
-
       - name: Verify rendered site
         run: |
           test -f out/site/index.html || { echo "::error::index.html missing"; exit 1; }
