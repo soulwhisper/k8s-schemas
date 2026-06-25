@@ -8,7 +8,7 @@
       automerge: true,
       automergeType: "pr",
       matchUpdateTypes: ["minor", "patch", "digest"],
-      ignoreTests: true,
+      ignoreTests: false,
     },
     {
       description: "Auto-merge CRD upstream non-major bumps",
