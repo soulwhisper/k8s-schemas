@@ -1,12 +1,12 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: e0da2edebb2693cb92d92fcf0f44f1aae71f6b035d19c042813cc71e5e9616f4
+  - configDigest: 299020c1ce229d4aa926321200111ad489ee2861626fe7dc17ab498558bef50c
     git:
-      commitTitle: 'api: allow validation on older k8s versions (#1838)...'
-      sha: 6a2d02dbb35a289738d0fdba88e5a474e432a72a
+      commitTitle: 'ui: fix windows build (#2239)...'
+      sha: a5b96900d20369f7cd102a8fbd61da1bb8a27ba1
       tags:
-      - v1.2.1
+      - v1.3.0
     path: .
   path: _sources/agentgateway
 - contents:
@@ -121,10 +121,10 @@ directories:
   path: _sources/frr-k8s
 - contents:
   - git:
-      commitTitle: 'chore: release 5.23.0 (#2713)'
-      sha: 4c77de5f58dd663bf779d9ddf8bda66c150654f8
+      commitTitle: 'chore: release 5.24.0 (#2742)'
+      sha: 065a718a1fe83728d08054c299de7f8577e88f79
       tags:
-      - v5.23.0
+      - v5.24.0
     path: .
   path: _sources/grafana-operator
 - contents:
@@ -181,6 +181,15 @@ directories:
       - v0.20.1
     path: .
   path: _sources/silence-operator
+- contents:
+  - configDigest: 93339ffc2bc783dad579a0d00898e32fec5841790b6ae06d9d31b2d5a0cec625
+    git:
+      commitTitle: Release v0.29.1 (#5453)...
+      sha: 83e9eaec177c85c791a337b8c99d2e43c06904a1
+      tags:
+      - v0.29.1
+    path: .
+  path: _sources/toolhive
 - contents:
   - configDigest: 7b5600cf54350774bf84194c7d386e7ad3511da8159463d54895b8c00dab5059
     git:

@@ -174,7 +174,7 @@ directories:
       - path: .
         git:
           url: https://github.com/grafana/grafana-operator
-          ref: v5.23.0
+          ref: v5.24.0
         includePaths:
           - deploy/helm/grafana-operator/files/crds/*.yaml
 
