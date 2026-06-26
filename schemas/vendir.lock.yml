@@ -66,10 +66,10 @@ directories:
   path: _sources/external-dns
 - contents:
   - git:
-      commitTitle: 'chore: update go version 1.26.4 (#6426)...'
-      sha: cc1ae7fe2927fbe61df9aa87bf2e5075972c79f9
+      commitTitle: 'feat(doppler): include HTTP status in API errors (#6489)...'
+      sha: e215053f3e68504de7483f9542b49f19f98293a1
       tags:
-      - v2.6.0
+      - v2.7.0
     path: .
   path: _sources/external-secrets
 - contents:
