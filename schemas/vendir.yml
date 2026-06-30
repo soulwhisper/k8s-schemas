@@ -129,28 +129,28 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/helm-controller
-          ref: v1.6.0
+          ref: v1.6.1
         includePaths:
           - config/crd/bases/*.yaml
       - path: notification-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/notification-controller
-          ref: v1.9.0
+          ref: v1.9.1
         includePaths:
           - config/crd/bases/*.yaml
       - path: kustomize-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/kustomize-controller
-          ref: v1.9.0
+          ref: v1.9.1
         includePaths:
           - config/crd/bases/*.yaml
       - path: source-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/source-controller
-          ref: v1.9.0
+          ref: v1.9.1
         includePaths:
           - config/crd/bases/*.yaml
 
@@ -267,7 +267,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/stacklok/toolhive
-          ref: v0.31.0
+          ref: v0.32.0
         includePaths:
           - deploy/charts/operator-crds/files/crds/*.yaml
 
@@ -280,7 +280,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/tuppr
-          ref: 0.2.8
+          ref: 0.2.9
         includePaths:
           - config/crd/bases/*.yaml
 
