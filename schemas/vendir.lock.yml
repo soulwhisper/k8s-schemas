@@ -129,10 +129,10 @@ directories:
   path: _sources/grafana-operator
 - contents:
   - git:
-      commitTitle: Patch 1.5.1 release. (#4685)...
-      sha: e7677b70ae75d14a4448fba94870e7deea6cf0ad
+      commitTitle: version bump and changelog update for v1.6.0 release. (#5029)
+      sha: 89b3b0c3fa63f9342f43ba0fb2cf93d6aab53af7
       tags:
-      - conformance/v1.5.1
+      - conformance/v1.6.0
     path: .
   path: _sources/gateway-api
 - contents:
