@@ -116,7 +116,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/envoyproxy/gateway
-          ref: v1.8.1
+          ref: v1.8.2
         includePaths:
           - charts/gateway-crds-helm/templates/generated/*.yaml
 
