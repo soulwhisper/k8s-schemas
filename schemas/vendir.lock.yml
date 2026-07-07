@@ -82,33 +82,33 @@ directories:
     path: .
   path: _sources/envoy-gateway
 - contents:
-  - configDigest: ad527bb596c853e4e84a8c0420a77771a735ec2e5d8eb2475669e78b9ec6b1eb
+  - configDigest: f98c237ab60688c382c1ca472fee2be500cb3fcd78f31bca3c407116cde84349
     git:
-      commitTitle: 'Merge pull request #1534 from fluxcd/release-v1.6.1...'
-      sha: 2695d9be70da620bbf4833989c0adeb69d15d051
+      commitTitle: 'Merge pull request #1540 from fluxcd/release-v1.6.2...'
+      sha: 7cabcd8becb9d88c0198d3555cbcaa662faf98a2
       tags:
-      - v1.6.1
+      - v1.6.2
     path: helm-controller
-  - configDigest: a972aea7122e61222428ee2fc75c6c4eab881ab9dee82720953ea66c35ff88e6
+  - configDigest: 5007d7d38c9c2c20495e48f3b0e10beee768dfefb9e0b3b9e64bddb6f1985e8c
     git:
-      commitTitle: 'Merge pull request #1340 from fluxcd/release-v1.9.1...'
-      sha: ba5cc0ac1891943cb99f5108377c88334a286d3c
+      commitTitle: 'Merge pull request #1347 from fluxcd/release-v1.9.2...'
+      sha: 8d2ed585e37c72177bb773867f40fa7d887bdcef
       tags:
-      - v1.9.1
+      - v1.9.2
     path: notification-controller
-  - configDigest: 6c1e00c4177a20a2f52cc9f2f5a69693196303790dfda02d23798f9f4eb1da03
+  - configDigest: 34cc8d3ac37e82a25f231a1a60782d72f4bf937478904ea75ede65fa7109ee54
     git:
-      commitTitle: 'Merge pull request #1688 from fluxcd/release-v1.9.1...'
-      sha: ab0e492125fb80bab6be5ddc610bae5738ed1022
+      commitTitle: 'Merge pull request #1701 from fluxcd/release-v1.9.2...'
+      sha: dbb931de77bf53c70202b44ce269bfccb2add84f
       tags:
-      - v1.9.1
+      - v1.9.2
     path: kustomize-controller
-  - configDigest: c8c72628f4c140aebf1de0f457cf87cbbf49d56a167e8e2ead364fb735271323
+  - configDigest: a58e57fe7e93b0308cb979be09887759ee1e7468b37a6dc8f6b7533ce29b4a0e
     git:
-      commitTitle: 'Merge pull request #2096 from fluxcd/release-v1.9.1...'
-      sha: 092bcff3c9c3f258a44310507201d295ff294ba6
+      commitTitle: 'Merge pull request #2107 from fluxcd/release-v1.9.2...'
+      sha: 38cf78c3f2fc533614a0c1589db0449bc5396c90
       tags:
-      - v1.9.1
+      - v1.9.2
     path: source-controller
   path: _sources/fluxcd
 - contents:
@@ -182,12 +182,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: d6935a3677d4d00ced7e45928fe3c96568d5eb1f571769329f51914c858a3919
+  - configDigest: 142fe8e60ebebd1afa69c8143056596b3e3ff5ac271275d16b2507fe6e15d016
     git:
-      commitTitle: Release v0.33.0 (#5698)...
-      sha: 2aca563879963a905d98fa4479e384371367275a
+      commitTitle: Release v0.34.0 (#5737)...
+      sha: b084be45ce404313d6022a341f51543057b0881b
       tags:
-      - v0.33.0
+      - v0.34.0
     path: .
   path: _sources/toolhive
 - contents:
