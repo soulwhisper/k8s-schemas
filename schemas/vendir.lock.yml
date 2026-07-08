@@ -19,12 +19,12 @@ directories:
     path: .
   path: _sources/cert-manager
 - contents:
-  - configDigest: 398534dbe980bf7a1a1f19f2d81cc4f0acc3c90898a00a08ca3532a5d7686430
+  - configDigest: 8d206eedd76d0774852bc6210b8379a0bc9449f2cc4de518034f8ade1d438b30
     git:
-      commitTitle: Prepare for release v1.19.5...
-      sha: 20eaccfef029cb046d70219717fb6dbbdf27a59f
+      commitTitle: 'ipam/service/allocator: fix IPv6 offset aliasing...'
+      sha: 2d3b6d513a781aea99cd87d5ee7947fd44cb147b
       tags:
-      - 1.19.5
+      - v1.20.0-pre.4-39-g2d3b6d513a
     path: .
   path: _sources/cilium
 - contents:
@@ -164,12 +164,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: bac744ad57e3178112ad6ed8a4d5292ac7272c66adfb89f4001d6a868fe5f1f0
+  - configDigest: ba1c057ef5193efcca791dad65f584e077082b1676aee88c8ef6f078ac269b62
     git:
-      commitTitle: 'Merge pull request #17767 from obnoxxx/prep-v1.20.1...'
-      sha: 6eab73f29700b60038d1f3f465e2d8b5b15eb479
+      commitTitle: 'Merge pull request #17916 from obnoxxx/prep-v1.20.2...'
+      sha: b40e86043ad93daf99884d372d530f4a0c9f0a5f
       tags:
-      - v1.20.1
+      - v1.20.2
     path: .
   path: _sources/rook
 - contents:
