@@ -24,7 +24,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cert-manager/cert-manager
-          ref: v1.20.3
+          ref: v1.21.0
         includePaths:
           - deploy/charts/cert-manager/templates/crd-*.yaml
 
