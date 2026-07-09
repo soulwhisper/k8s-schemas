@@ -10,12 +10,12 @@ directories:
     path: .
   path: _sources/agentgateway
 - contents:
-  - configDigest: 7d7a331de1149e5c786f0cb2786b1fd5cec167899856ff651c6cc981145f7948
+  - configDigest: e78f2f04d556d9170024363504e3411f09c3fe85b7e6c2cf4dc61b736ff13af7
     git:
-      commitTitle: 'Merge pull request #8940 from wallrj-cyberark/restrict-edit-clusterrole-rbac-release-1.20...'
-      sha: 1e1d16d1744e6d9c80e464e58e8d9ab1caed222b
+      commitTitle: 'Merge pull request #8984 from cert-manager-bot/cherry-pick-8983-to-release-1.21...'
+      sha: b8f325e36f49626ba72d7efbe138c01a5e661d96
       tags:
-      - v1.20.3
+      - v1.21.0
     path: .
   path: _sources/cert-manager
 - contents:
