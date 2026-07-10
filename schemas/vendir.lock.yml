@@ -145,12 +145,12 @@ directories:
     path: .
   path: _sources/kgateway
 - contents:
-  - configDigest: 7fe1a5d45b2b5eb6091ca4820f9435c8605445e74853801e389754c7f4f03cc2
+  - configDigest: cd4c3336a1433d770412848691a107476fec48504cbfff4aa8b2979e34c95144
     git:
-      commitTitle: 'chore: release v1.18.1 (#16126)...'
-      sha: ec14520a11cc25432482bfc0baa6a61d3c309524
+      commitTitle: 'chore: cut v1.18.2 (#16526)...'
+      sha: 945ac9ce8546ea6cd51370f24b615148c577da5e
       tags:
-      - kyverno-chart-3.8.1
+      - v1.18.2
     path: .
   path: _sources/kyverno
 - contents:
