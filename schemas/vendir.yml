@@ -212,7 +212,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kyverno/kyverno
-          ref: v1.18.1
+          ref: v1.18.2
         includePaths:
           - charts/kyverno/charts/crds/templates/kyverno.io/*.yaml
           - charts/kyverno/charts/crds/templates/reports.kyverno.io/*.yaml
