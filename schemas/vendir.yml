@@ -143,14 +143,14 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/kustomize-controller
-          ref: v1.9.2
+          ref: v1.9.3
         includePaths:
           - config/crd/bases/*.yaml
       - path: source-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/source-controller
-          ref: v1.9.2
+          ref: v1.9.3
         includePaths:
           - config/crd/bases/*.yaml
 
