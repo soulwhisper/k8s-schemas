@@ -136,12 +136,13 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: 0d57b1bb43023f08a8c29f2dda6775560d03e7ae249c1f6b8b8ea3adcd680388
+  - configDigest: 4dd7527b03c455eea61f0d9c7696c10f2cd05760304386c8ad6ba8910ba71f5c
     git:
-      commitTitle: '[2.3] fix: use rooted FQDN for xDS cluster address (#14296)...'
-      sha: d7a4e97686ada6bdc35e5315b69bd6a46b40beb1
+      commitTitle: '[2.3] fix: revert per-client xDS readiness gates in favor of a
+        fir… (#14387)...'
+      sha: 1b6310654e0c005eb98bc9a8433914190f1f747b
       tags:
-      - v2.3.5
+      - v2.3.6
     path: .
   path: _sources/kgateway
 - contents:
@@ -182,12 +183,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 142fe8e60ebebd1afa69c8143056596b3e3ff5ac271275d16b2507fe6e15d016
+  - configDigest: 180e4f84e54255d04b76311156d2fe72feaa06f50b0cd970179d5406be0b8559
     git:
-      commitTitle: Release v0.34.0 (#5737)...
-      sha: b084be45ce404313d6022a341f51543057b0881b
+      commitTitle: Release v0.35.0 (#5788)...
+      sha: d2f6812e7d0df4d756ec9a9c31f98e973bb1eea6
       tags:
-      - v0.34.0
+      - v0.35.0
     path: .
   path: _sources/toolhive
 - contents:

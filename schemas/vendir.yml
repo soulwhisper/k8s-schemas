@@ -199,7 +199,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kgateway-dev/kgateway
-          ref: v2.3.5
+          ref: v2.3.6
         includePaths:
           - install/helm/kgateway-crds/templates/*.yaml
 
@@ -267,7 +267,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/stacklok/toolhive
-          ref: v0.34.0
+          ref: v0.35.0
         includePaths:
           - deploy/charts/operator-crds/files/crds/*.yaml
 
