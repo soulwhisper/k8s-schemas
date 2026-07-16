@@ -129,10 +129,10 @@ directories:
   path: _sources/grafana-operator
 - contents:
   - git:
-      commitTitle: version bump and changelog update for v1.6.0 release. (#5029)
-      sha: 89b3b0c3fa63f9342f43ba0fb2cf93d6aab53af7
+      commitTitle: update vap (#5073)
+      sha: 8bb74df00e56ec8f944d48c25e6c1c9c2f6848e3
       tags:
-      - conformance/v1.6.0
+      - conformance/v1.6.1
     path: .
   path: _sources/gateway-api
 - contents:
@@ -183,21 +183,21 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 1eb28a31380786e1c9cdc02c3bb6d644dfc0608ab2dc19bf8ffa49044290d577
+  - configDigest: 56c6239cef73cdb51584d45c2f28aac359bda0ef70f89ea49354814456c71b44
     git:
-      commitTitle: Release v0.38.0 (#5820)...
-      sha: 116421213382e82016067d32581b61f4fe1ab807
+      commitTitle: Release v0.39.0 (#5833)...
+      sha: 4ebb610f23d670b2381b18d5edebf18d48fdb2e5
       tags:
-      - v0.38.0
+      - v0.39.0
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: 94aab1f17f765a3beca44ea1cf9a91c8f775a16deba85ec42a28fa99411c223a
+  - configDigest: c46b2702b067958119ff0f1b850a77b04771053fac1f0be2d854e5c4e17298dc
     git:
-      commitTitle: 'chore(main): release 0.3.1 (#372)'
-      sha: 4ab7b0eb37dc71c5d55e770fee82f7e16f7706b9
+      commitTitle: 'chore(main): release 0.3.2 (#385)...'
+      sha: 73ceca29fe948f1b62822cd078e9cbb0020f8af9
       tags:
-      - 0.3.1
+      - 0.3.2
     path: .
   path: _sources/tuppr
 - contents:
