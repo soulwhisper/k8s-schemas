@@ -183,12 +183,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 13737fcc7fbd25a6478eee4a52b1d10ee23bfa1435a968450819f2579648e5d6
+  - configDigest: 1eb28a31380786e1c9cdc02c3bb6d644dfc0608ab2dc19bf8ffa49044290d577
     git:
-      commitTitle: Release v0.37.0 (#5811)...
-      sha: 90539bbb40fe56c934b2c3a09a14fffa4aa95043
+      commitTitle: Release v0.38.0 (#5820)...
+      sha: 116421213382e82016067d32581b61f4fe1ab807
       tags:
-      - v0.37.0
+      - v0.38.0
     path: .
   path: _sources/toolhive
 - contents:
