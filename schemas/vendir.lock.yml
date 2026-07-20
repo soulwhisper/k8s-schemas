@@ -28,12 +28,12 @@ directories:
     path: .
   path: _sources/cilium
 - contents:
-  - configDigest: 015500fedeef8927b0a89e0e9798dd53af91cfcfc82e4772599e3d83a2c8e2c3
+  - configDigest: 889d64a2d8a5feda75592bd1d08f12085e2baff1d6624edb5d1904051a55b164
     git:
-      commitTitle: 'ci: bypass v1 registries.conf in opm catalog render (#241)...'
-      sha: 15cdb3544e6261228267e7440ea2e7dff74284d5
+      commitTitle: 'docs: clarify topologyZoneKey and nodeHostnameKey semantics (#271)...'
+      sha: 24da2d81a832c524ff7898dc8d04baa1ff63f49a
       tags:
-      - v0.0.6
+      - v0.0.7
     path: .
   path: _sources/clickhouse
 - contents:
