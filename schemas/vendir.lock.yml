@@ -193,12 +193,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: c46b2702b067958119ff0f1b850a77b04771053fac1f0be2d854e5c4e17298dc
+  - configDigest: bb80530537d66ad55b77857c462f681bae89a062e42aa19a117fb8dd501050bd
     git:
-      commitTitle: 'chore(main): release 0.3.2 (#385)...'
-      sha: 73ceca29fe948f1b62822cd078e9cbb0020f8af9
+      commitTitle: 'chore(main): release 0.3.3 (#389)'
+      sha: 3a6490ca9d9dd6586b8cd5c09e0f8b1042401c09
       tags:
-      - 0.3.2
+      - 0.3.3
     path: .
   path: _sources/tuppr
 - contents:

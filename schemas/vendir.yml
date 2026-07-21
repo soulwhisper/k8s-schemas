@@ -280,7 +280,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/tuppr
-          ref: 0.3.2
+          ref: 0.3.3
         includePaths:
           - config/crd/bases/*.yaml
 
