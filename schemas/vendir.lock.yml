@@ -74,12 +74,13 @@ directories:
     path: .
   path: _sources/external-secrets
 - contents:
-  - configDigest: 2b65c888fb53cca1e65ad93b55c1a96125f4b4d0074182961e749d8c1689447c
+  - configDigest: 6ef17e87060e59a79b0c95eb77a011265c8969991d1022e4a8ec23fdc5fdfad1
     git:
-      commitTitle: '[release-1.8] cherry-pick for v1.8.2 (#9376)...'
-      sha: 6c2e80d5158926749b95e948d7aae36b9ae67669
+      commitTitle: '[release-1.8] fix: update ratelimit image fallback tag in helm
+        helpers (#9552)'
+      sha: 94850d4323922cba7c67b5b5ad23de9c715f8048
       tags:
-      - v1.8.2
+      - v1.8.3
     path: .
   path: _sources/envoy-gateway
 - contents:
@@ -193,12 +194,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: bb80530537d66ad55b77857c462f681bae89a062e42aa19a117fb8dd501050bd
+  - configDigest: bc2a40154299e65718363d3978b8fd127e382284a41b3e3380f191800611156c
     git:
-      commitTitle: 'chore(main): release 0.3.3 (#389)'
-      sha: 3a6490ca9d9dd6586b8cd5c09e0f8b1042401c09
+      commitTitle: 'chore(main): release 0.4.0 (#402)'
+      sha: 24ca2e667ef41db77437f8bfdb19b13de35084ef
       tags:
-      - 0.3.3
+      - 0.4.0
     path: .
   path: _sources/tuppr
 - contents:
