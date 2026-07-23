@@ -84,12 +84,12 @@ directories:
     path: .
   path: _sources/envoy-gateway
 - contents:
-  - configDigest: f98c237ab60688c382c1ca472fee2be500cb3fcd78f31bca3c407116cde84349
+  - configDigest: c092cfaf134592f28cea2a9dcd3076772ae05555542bb8dcb1b828d56e3f6de8
     git:
-      commitTitle: 'Merge pull request #1540 from fluxcd/release-v1.6.2...'
-      sha: 7cabcd8becb9d88c0198d3555cbcaa662faf98a2
+      commitTitle: 'Merge pull request #1549 from fluxcd/release-v1.6.3...'
+      sha: 372c34e2b4a455d24ef6cbb8321c82c4533dbbd8
       tags:
-      - v1.6.2
+      - v1.6.3
     path: helm-controller
   - configDigest: 5007d7d38c9c2c20495e48f3b0e10beee768dfefb9e0b3b9e64bddb6f1985e8c
     git:
@@ -98,12 +98,12 @@ directories:
       tags:
       - v1.9.2
     path: notification-controller
-  - configDigest: 80e421086a467a76c99b21f12f6e164b62d19f6b5f38a8efc11ab0a951fd01d9
+  - configDigest: b5e7e3647c26826030310b2dbae7c6c246ff22f3dbb8603ca0fd4c24ece11ca4
     git:
-      commitTitle: 'Merge pull request #1710 from fluxcd/release-v1.9.3...'
-      sha: 65f69a81269df88ab044f123d94c1f6b13d2193a
+      commitTitle: 'Merge pull request #1716 from fluxcd/release-v1.9.4...'
+      sha: 1324b615da01038e2859cbcde604bd5434f21933
       tags:
-      - v1.9.3
+      - v1.9.4
     path: kustomize-controller
   - configDigest: a6711e9e76043f13d9a48853eb4a6bf555ead495788555cabfa0fa726a243fd4
     git:
@@ -138,13 +138,12 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: 4dd7527b03c455eea61f0d9c7696c10f2cd05760304386c8ad6ba8910ba71f5c
+  - configDigest: 4eba26d433ee4269e86f0686329aff835e0925b876ca0b9dcbc2ae708deddfc8
     git:
-      commitTitle: '[2.3] fix: revert per-client xDS readiness gates in favor of a
-        fir… (#14387)...'
-      sha: 1b6310654e0c005eb98bc9a8433914190f1f747b
+      commitTitle: 2.4.x - Build SDS with chainguard distroless (#14463)...
+      sha: c6c5eeafd2108b0e0e5ebb5608a38290cf3066dc
       tags:
-      - v2.3.6
+      - v2.4.0
     path: .
   path: _sources/kgateway
 - contents:
@@ -194,12 +193,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: bc2a40154299e65718363d3978b8fd127e382284a41b3e3380f191800611156c
+  - configDigest: fd6b3d418fda42432a2662ffa679fe1aa9fded06d6e33774debb9da1ed8aef50
     git:
-      commitTitle: 'chore(main): release 0.4.0 (#402)'
-      sha: 24ca2e667ef41db77437f8bfdb19b13de35084ef
+      commitTitle: 'chore(main): release 0.4.1 (#412)'
+      sha: 494cd5fe265095c5ba003fdb2c3f71db9f7ccdf6
       tags:
-      - 0.4.0
+      - 0.4.1
     path: .
   path: _sources/tuppr
 - contents:
