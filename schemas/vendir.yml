@@ -129,7 +129,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/helm-controller
-          ref: v1.6.2
+          ref: v1.6.3
         includePaths:
           - config/crd/bases/*.yaml
       - path: notification-controller
@@ -143,7 +143,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/kustomize-controller
-          ref: v1.9.3
+          ref: v1.9.4
         includePaths:
           - config/crd/bases/*.yaml
       - path: source-controller
@@ -199,7 +199,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kgateway-dev/kgateway
-          ref: v2.3.6
+          ref: v2.4.0
         includePaths:
           - install/helm/kgateway-crds/templates/*.yaml
 
@@ -280,7 +280,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/tuppr
-          ref: 0.4.0
+          ref: 0.4.1
         includePaths:
           - config/crd/bases/*.yaml
 
