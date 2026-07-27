@@ -1,12 +1,13 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: 849c93e049c99f394775060e1124dabf338dbdf2521936389f08465914fad116
+  - configDigest: 768f1a9d86ebc3aee64c85e9dc03dfdafd8d484894f04b1887c575a77d45e3fb
     git:
-      commitTitle: Allow same port with different protocols across gateways (#2246)...
-      sha: dbaaf7ed73671e7aec9195e35e7f726c0b14b84a
+      commitTitle: 'llm: allow non-gpt models to use reasoning with tools+messages
+        (#2695)...'
+      sha: 83c952731ee79b4372e3a031382c4ff419ddfee1
       tags:
-      - v1.3.1
+      - v1.4.0
     path: .
   path: _sources/agentgateway
 - contents:
@@ -138,12 +139,13 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: 4eba26d433ee4269e86f0686329aff835e0925b876ca0b9dcbc2ae708deddfc8
+  - configDigest: c18ac8fd03ab2cf48df6f482c5d0e83acd436b1c6ac3ce2ddf1a35c49d9f7b80
     git:
-      commitTitle: 2.4.x - Build SDS with chainguard distroless (#14463)...
-      sha: c6c5eeafd2108b0e0e5ebb5608a38290cf3066dc
+      commitTitle: 'fix: don''t offer the local-cluster EDS resource to clients that
+        havent asked (#14482)...'
+      sha: a8eb088fcd6e5bb003d3e814b4074df65d7d1100
       tags:
-      - v2.4.0
+      - v2.4.1
     path: .
   path: _sources/kgateway
 - contents:
@@ -193,12 +195,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: fd6b3d418fda42432a2662ffa679fe1aa9fded06d6e33774debb9da1ed8aef50
+  - configDigest: 10aab0eb13a3c26e442344285a99759b2c2d79ed441d87caaa76ed4c267b1128
     git:
-      commitTitle: 'chore(main): release 0.4.1 (#412)'
-      sha: 494cd5fe265095c5ba003fdb2c3f71db9f7ccdf6
+      commitTitle: 'chore(main): release 0.4.2 (#419)...'
+      sha: 5d27b4a06e826afc37fb5482e9fb9ce6f0d531da
       tags:
-      - 0.4.1
+      - 0.4.2
     path: .
   path: _sources/tuppr
 - contents:
