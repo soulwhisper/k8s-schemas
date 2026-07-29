@@ -11,12 +11,12 @@ directories:
     path: .
   path: _sources/agentgateway
 - contents:
-  - configDigest: e78f2f04d556d9170024363504e3411f09c3fe85b7e6c2cf4dc61b736ff13af7
+  - configDigest: 4e6b98cb0f3981ecefe39965496967dc822cb1e121e1fa323562273adb890e90
     git:
-      commitTitle: 'Merge pull request #8984 from cert-manager-bot/cherry-pick-8983-to-release-1.21...'
-      sha: b8f325e36f49626ba72d7efbe138c01a5e661d96
+      commitTitle: 'Merge pull request #9083 from cert-manager-bot/cherry-pick-9042-to-release-1.21...'
+      sha: 24e33194fb39488eff2bbf10c6dc640f407cad44
       tags:
-      - v1.21.0
+      - v1.21.1
     path: .
   path: _sources/cert-manager
 - contents:
@@ -168,12 +168,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: ba1c057ef5193efcca791dad65f584e077082b1676aee88c8ef6f078ac269b62
+  - configDigest: 9fce642c52fcb03265c6ca1add8e3963ccd71a54ba955f09875697fd8357c985
     git:
-      commitTitle: 'Merge pull request #17916 from obnoxxx/prep-v1.20.2...'
-      sha: b40e86043ad93daf99884d372d530f4a0c9f0a5f
+      commitTitle: 'Merge pull request #18062 from travisn/release-1.20.3...'
+      sha: 3b678364c85fcc6380419a467629244c194c5e5c
       tags:
-      - v1.20.2
+      - v1.20.3
     path: .
   path: _sources/rook
 - contents:
@@ -186,12 +186,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 6839c03e47daa2ee22003452d9680e890e2c05e0121802ee0f3c945d59b2e5bf
+  - configDigest: 4ac485290340e2ec078d3f01181ea336a07353d931c6535b197434239617af53
     git:
-      commitTitle: Release v0.40.1 (#5877)...
-      sha: 0b6e1f13d960c182a0c526f13b3ee0a0f66cd873
+      commitTitle: Release v0.41.0 (#6125)...
+      sha: d72230424efbafd89fb5faf1934126e266b439ae
       tags:
-      - v0.40.1
+      - v0.41.0
     path: .
   path: _sources/toolhive
 - contents:
