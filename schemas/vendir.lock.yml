@@ -1,13 +1,12 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: 768f1a9d86ebc3aee64c85e9dc03dfdafd8d484894f04b1887c575a77d45e3fb
+  - configDigest: 72aeba4cac7e7880335d6967947c4cce5f7b217d386242c41bac433c37cc49bf
     git:
-      commitTitle: 'llm: allow non-gpt models to use reasoning with tools+messages
-        (#2695)...'
-      sha: 83c952731ee79b4372e3a031382c4ff419ddfee1
+      commitTitle: 'promptGuard: apply guard to merged consecutive text blocks (#2755)...'
+      sha: 163ea2146acb7b82082acea30ed691b29079095f
       tags:
-      - v1.4.0
+      - v1.4.1
     path: .
   path: _sources/agentgateway
 - contents:
@@ -195,12 +194,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: 10aab0eb13a3c26e442344285a99759b2c2d79ed441d87caaa76ed4c267b1128
+  - configDigest: e30152e79baff9a4a509ab78a5575077cc96bad0932747b9e68f49d749d5ab4e
     git:
-      commitTitle: 'chore(main): release 0.4.2 (#419)...'
-      sha: 5d27b4a06e826afc37fb5482e9fb9ce6f0d531da
+      commitTitle: 'chore(main): release 0.4.3 (#439)...'
+      sha: 53baea3a73cb7889c31bb09d4c7bef7b1f398988
       tags:
-      - 0.4.2
+      - 0.4.3
     path: .
   path: _sources/tuppr
 - contents:
