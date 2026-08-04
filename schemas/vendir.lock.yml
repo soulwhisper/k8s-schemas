@@ -138,13 +138,13 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: c18ac8fd03ab2cf48df6f482c5d0e83acd436b1c6ac3ce2ddf1a35c49d9f7b80
+  - configDigest: f7fc9430bd797de1c59f8382f51c2111a2a888a0822aa8362deeeb9684565568
     git:
-      commitTitle: 'fix: don''t offer the local-cluster EDS resource to clients that
-        havent asked (#14482)...'
-      sha: a8eb088fcd6e5bb003d3e814b4074df65d7d1100
+      commitTitle: '[2.4] fix: stop one errored backend from stalling EDS updates
+        for eve… (#14505)...'
+      sha: 6851e1703200252f317d91a4385cd00c77c3d55b
       tags:
-      - v2.4.1
+      - v2.4.2
     path: .
   path: _sources/kgateway
 - contents:
