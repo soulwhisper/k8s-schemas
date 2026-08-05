@@ -267,7 +267,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/stacklok/toolhive
-          ref: v0.41.0
+          ref: v0.42.0
         includePaths:
           - deploy/charts/operator-crds/files/crds/*.yaml
 
@@ -280,7 +280,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/tuppr
-          ref: 0.4.6
+          ref: 0.4.7
         includePaths:
           - config/crd/bases/*.yaml
 
