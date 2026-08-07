@@ -102,7 +102,7 @@ directories:
       - path: .
         git:
           url: https://github.com/external-secrets/external-secrets
-          ref: v2.8.0
+          ref: v2.9.0
         includePaths:
           - config/crds/bases/external-*.yaml
           - config/crds/bases/generators*.yaml
@@ -136,7 +136,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/notification-controller
-          ref: v1.9.2
+          ref: v1.9.3
         includePaths:
           - config/crd/bases/*.yaml
       - path: kustomize-controller
@@ -150,7 +150,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/source-controller
-          ref: v1.9.3
+          ref: v1.9.4
         includePaths:
           - config/crd/bases/*.yaml
 
@@ -162,7 +162,7 @@ directories:
       - path: .
         git:
           url: https://github.com/metallb/frr-k8s
-          ref: v0.0.25
+          ref: v0.0.26
         includePaths:
           - charts/frr-k8s/charts/crds/templates/*.yaml
 

@@ -66,11 +66,11 @@ directories:
   path: _sources/external-dns
 - contents:
   - git:
-      commitTitle: 'fix(oracle): cache default WorkloadIdentity provider to prevent
-        tcp port exhaustion (#6421)...'
-      sha: 2e0f135f739eff1543b0a86cbedf9331756432d5
+      commitTitle: 'chore(deps): bump step-security/harden-runner from 2.19.4 to 2.20.1
+        (#6803)...'
+      sha: 378bdb622ed9712ef4a58370f6a17af033b7d343
       tags:
-      - v2.8.0
+      - v2.9.0
     path: .
   path: _sources/external-secrets
 - contents:
@@ -91,12 +91,12 @@ directories:
       tags:
       - v1.6.3
     path: helm-controller
-  - configDigest: 5007d7d38c9c2c20495e48f3b0e10beee768dfefb9e0b3b9e64bddb6f1985e8c
+  - configDigest: 6a9709ee15e706732e66b725060a00340d00b45484dc58183fee2626a0933e17
     git:
-      commitTitle: 'Merge pull request #1347 from fluxcd/release-v1.9.2...'
-      sha: 8d2ed585e37c72177bb773867f40fa7d887bdcef
+      commitTitle: 'Merge pull request #1365 from fluxcd/release-v1.9.3...'
+      sha: 0b6fcb118ea64a36d7ca7d29904e4f5075be87bc
       tags:
-      - v1.9.2
+      - v1.9.3
     path: notification-controller
   - configDigest: b5e7e3647c26826030310b2dbae7c6c246ff22f3dbb8603ca0fd4c24ece11ca4
     git:
@@ -105,20 +105,20 @@ directories:
       tags:
       - v1.9.4
     path: kustomize-controller
-  - configDigest: a6711e9e76043f13d9a48853eb4a6bf555ead495788555cabfa0fa726a243fd4
+  - configDigest: 8f728bee6ec0e87ac83bf79e5ff8eb416c5af65db378ec2ac0673407a5735ad7
     git:
-      commitTitle: 'Merge pull request #2111 from fluxcd/release-v1.9.3...'
-      sha: ed61ebda88cd70159b24df1c8df50b1e6be4cc3d
+      commitTitle: 'Merge pull request #2132 from fluxcd/release-v1.9.4...'
+      sha: 6b10a9e4225bdf2def44b817bd080eddb42d2133
       tags:
-      - v1.9.3
+      - v1.9.4
     path: source-controller
   path: _sources/fluxcd
 - contents:
   - git:
-      commitTitle: Automated update for release v0.0.25
-      sha: fc9b433c54374deeb461db3bd8ea91084e589837
+      commitTitle: Automated update for release v0.0.26
+      sha: 91642ae6aad98b4346b6852332ee83c1bce5b033
       tags:
-      - v0.0.25
+      - v0.0.26
     path: .
   path: _sources/frr-k8s
 - contents:
