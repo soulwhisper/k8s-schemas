@@ -194,12 +194,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: 4b4e53411e5fed133a737b6ffaaa68b4e13a76e763c15caeef225ad7fb3d34ca
+  - configDigest: fc15e942ef15336dc5ed6454e2b9761de63dd27ae248fceb9bb8feb45e7166fb
     git:
-      commitTitle: 'chore(release): 0.4.7 (#469)'
-      sha: cda0ca37192aa63d6f76e2e6547e37298096c43c
+      commitTitle: 'chore(release): 0.5.0 (#483)'
+      sha: 6da4415f140bfee9b17667b532b45e09f50fabf6
       tags:
-      - 0.4.7
+      - 0.5.0
     path: .
   path: _sources/tuppr
 - contents:
