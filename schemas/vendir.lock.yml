@@ -167,12 +167,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: 9fce642c52fcb03265c6ca1add8e3963ccd71a54ba955f09875697fd8357c985
+  - configDigest: 1e559a207446d08172db5b376a44a7c68b6b04acc23fa0b371ceca42441b4d2a
     git:
-      commitTitle: 'Merge pull request #18062 from travisn/release-1.20.3...'
-      sha: 3b678364c85fcc6380419a467629244c194c5e5c
+      commitTitle: 'Merge pull request #18167 from travisn/release-1.20.4...'
+      sha: a3794e0ce8eab47d23383c61232824f118beb530
       tags:
-      - v1.20.3
+      - v1.20.4
     path: .
   path: _sources/rook
 - contents:

@@ -240,7 +240,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/rook/rook
-          ref: v1.20.3
+          ref: v1.20.4
         includePaths:
           - deploy/examples/crds.yaml
           - deploy/olm/assemble/*.yaml
