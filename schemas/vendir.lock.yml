@@ -74,13 +74,12 @@ directories:
     path: .
   path: _sources/external-secrets
 - contents:
-  - configDigest: 6ef17e87060e59a79b0c95eb77a011265c8969991d1022e4a8ec23fdc5fdfad1
+  - configDigest: 6c995bc62aad2cbf96f8ec1b2073cceb6cbff0e69b764206b919366f076eb230
     git:
-      commitTitle: '[release-1.8] fix: update ratelimit image fallback tag in helm
-        helpers (#9552)'
-      sha: 94850d4323922cba7c67b5b5ad23de9c715f8048
+      commitTitle: bump ratelimit version (#9757)...
+      sha: 39763b1c07ec30a5526fe70434a2cfe4181de642
       tags:
-      - v1.8.3
+      - v1.9.0
     path: .
   path: _sources/envoy-gateway
 - contents:
