@@ -19,12 +19,12 @@ directories:
     path: .
   path: _sources/cert-manager
 - contents:
-  - configDigest: 8d206eedd76d0774852bc6210b8379a0bc9449f2cc4de518034f8ade1d438b30
+  - configDigest: c3a83a5f0dcdc862098bb8a523b6e773a58ad442e75dd52a482c0b4008345eff
     git:
-      commitTitle: 'ipam/service/allocator: fix IPv6 offset aliasing...'
-      sha: 2d3b6d513a781aea99cd87d5ee7947fd44cb147b
+      commitTitle: Prepare for release v1.20.1...
+      sha: 7d68cfb394f2960e10aa72e76d0d51e66c1b2ebc
       tags:
-      - v1.20.0-pre.4-39-g2d3b6d513a
+      - 1.20.1
     path: .
   path: _sources/cilium
 - contents:
@@ -175,21 +175,21 @@ directories:
     path: .
   path: _sources/rook
 - contents:
-  - configDigest: a1d4316407046dfd1e702754dde06b188c08c8a6c9101b9a81bb02ef6a74aaea
+  - configDigest: bdd5cb13ed52336fcd61344c14ba464455762c2093b8a1f24cdc902247043065
     git:
-      commitTitle: Release v0.20.1 (#650)
-      sha: bac256ff9bf283eab6dcab7e0e739ae8c0138568
+      commitTitle: 'chore(release): v0.21.0 (#711)...'
+      sha: 8bb6b72b04a187a2ebaa55fc8308d45f6c7e53b9
       tags:
-      - v0.20.1
+      - v0.21.0
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: db201430c6e6bea13b03babc81d9b32be31d17d09da1c487acb76db4371b4b2a
+  - configDigest: 5b4cc4bacb5a936d4cf44ccdc716155ed707405cc6adb8a7fac1cf7dd179be62
     git:
-      commitTitle: Release v0.43.0 (#6333)...
-      sha: 8f294e26a9eecfc439c09e3e1d58a241064054f6
+      commitTitle: Release v0.44.0 (#6365)...
+      sha: b3df9689bdb7d55d0765565890ba9dc0c076dec0
       tags:
-      - v0.43.0
+      - v0.44.0
     path: .
   path: _sources/toolhive
 - contents:
