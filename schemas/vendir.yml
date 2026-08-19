@@ -37,7 +37,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cilium/cilium
-          ref: v1.20
+          ref: v1.20.1
         includePaths:
           - pkg/k8s/apis/cilium.io/client/crds/v2alpha1/*.yaml
           - pkg/k8s/apis/cilium.io/client/crds/v2/*.yaml
@@ -254,7 +254,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/giantswarm/silence-operator
-          ref: v0.20.1
+          ref: v0.21.0
         includePaths:
           - helm/silence-operator/templates/crds.yml
 
@@ -267,7 +267,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/stacklok/toolhive
-          ref: v0.43.0
+          ref: v0.44.0
         includePaths:
           - deploy/charts/operator-crds/files/crds/*.yaml
 
