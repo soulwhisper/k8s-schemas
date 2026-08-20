@@ -57,11 +57,10 @@ directories:
   path: _sources/dragonflydb
 - contents:
   - git:
-      commitTitle: 'feat(source/gateway-api)!: migrate Gateway and HTTPRoute to v1
-        (#6291)...'
-      sha: 066a11e2158f87689a01f0ff39493037da958171
+      commitTitle: bump dependencies for release (#6643)...
+      sha: 994f908d4abdfe5fbf38f2f61613ed570432e43a
       tags:
-      - v0.21.0
+      - v0.22.0
     path: .
   path: _sources/external-dns
 - contents:
@@ -147,12 +146,12 @@ directories:
     path: .
   path: _sources/kgateway
 - contents:
-  - configDigest: cd4c3336a1433d770412848691a107476fec48504cbfff4aa8b2979e34c95144
+  - configDigest: b73c558ec393cdef532b5a9792f7a6d62dc36304d5ca4f150c543bb0089c944a
     git:
-      commitTitle: 'chore: cut v1.18.2 (#16526)...'
-      sha: 945ac9ce8546ea6cd51370f24b615148c577da5e
+      commitTitle: 'chore: cut release v1.19.0 (#17238)...'
+      sha: ee97ce09538b09b6f1b03853cc41a62654d6a58f
       tags:
-      - v1.18.2
+      - kyverno-chart-3.9.0
     path: .
   path: _sources/kyverno
 - contents:

@@ -90,7 +90,7 @@ directories:
       - path: .
         git:
           url: https://github.com/kubernetes-sigs/external-dns
-          ref: v0.21.0
+          ref: v0.22.0
         includePaths:
           - config/crd/standard/*.yaml
 
@@ -212,7 +212,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kyverno/kyverno
-          ref: v1.18.2
+          ref: v1.19.0
         includePaths:
           - charts/kyverno/charts/crds/templates/kyverno.io/*.yaml
           - charts/kyverno/charts/crds/templates/reports.kyverno.io/*.yaml
