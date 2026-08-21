@@ -199,7 +199,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kgateway-dev/kgateway
-          ref: v2.4.2
+          ref: v2.4.3
         includePaths:
           - install/helm/kgateway-crds/templates/*.yaml
 
@@ -240,7 +240,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/rook/rook
-          ref: v1.20.5
+          ref: v1.20.6
         includePaths:
           - deploy/examples/crds.yaml
           - deploy/olm/assemble/*.yaml
