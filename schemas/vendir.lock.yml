@@ -136,13 +136,12 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: f7fc9430bd797de1c59f8382f51c2111a2a888a0822aa8362deeeb9684565568
+  - configDigest: 6123c14b787cb1eff27419768f33daa23ed68991d7536eff9278a159ee63e950
     git:
-      commitTitle: '[2.4] fix: stop one errored backend from stalling EDS updates
-        for eve… (#14505)...'
-      sha: 6851e1703200252f317d91a4385cd00c77c3d55b
+      commitTitle: '[2.4] bump: bumps go toolchain and numerous dependencies (#14590)...'
+      sha: b2a63fdd03d4c6c0d6cb013b519f85cf13907c34
       tags:
-      - v2.4.2
+      - v2.4.3
     path: .
   path: _sources/kgateway
 - contents:
@@ -165,12 +164,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: 4de125fecfd59357315c96c374e77f28c3ec30547838cdaba4470e321d36888d
+  - configDigest: 44d3cd4f78cbd8ff124f01b5f6a263009268ee029afbf73efa0f3cedadafff33
     git:
-      commitTitle: 'Merge pull request #18201 from obnoxxx/prep-v1.20.5...'
-      sha: c9ea191e55a97c42b382246c5d6464c3d4cea4f6
+      commitTitle: 'Merge pull request #18219 from BlaineEXE/release-ver-1.20.6...'
+      sha: 4e1b7a626891a215949ab42a6957a0ef1e1a25e6
       tags:
-      - v1.20.5
+      - v1.20.6
     path: .
   path: _sources/rook
 - contents:
