@@ -34,8 +34,8 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
           ref: ${{ github.head_ref || github.ref }}
 
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: DeterminateSystems/nix-installer-action@v22
+      - uses: DeterminateSystems/magic-nix-cache-action@v14
 
       - name: Sync
         run: nix develop -c just sync
