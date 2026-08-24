@@ -121,10 +121,10 @@ directories:
   path: _sources/frr-k8s
 - contents:
   - git:
-      commitTitle: 'chore: release 5.24.0 (#2742)'
-      sha: 065a718a1fe83728d08054c299de7f8577e88f79
+      commitTitle: 'chore: release version 5.25.0 (#2909)'
+      sha: 3f0e7912183c1109fe140ba944a80f51cc38c202
       tags:
-      - v5.24.0
+      - v5.25.0
     path: .
   path: _sources/grafana-operator
 - contents:
