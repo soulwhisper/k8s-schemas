@@ -121,8 +121,8 @@ directories:
   path: _sources/frr-k8s
 - contents:
   - git:
-      commitTitle: 'chore: release version 5.25.0 (#2909)'
-      sha: 3f0e7912183c1109fe140ba944a80f51cc38c202
+      commitTitle: 'fix(ci): set subdir for commit action (#2915)'
+      sha: 1d8584df2127ad9341567efb2683adaf25894ebe
       tags:
       - v5.25.0
     path: .
@@ -182,12 +182,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 5b4cc4bacb5a936d4cf44ccdc716155ed707405cc6adb8a7fac1cf7dd179be62
+  - configDigest: 64129791820f2128e9d5a61a1b0158826ad13aab659ee57c76bca2da64f014e4
     git:
-      commitTitle: Release v0.44.0 (#6365)...
-      sha: b3df9689bdb7d55d0765565890ba9dc0c076dec0
+      commitTitle: Release v0.45.0 (#6436)...
+      sha: cc922a8b47652988ae4d057a957942385fc59270
       tags:
-      - v0.44.0
+      - v0.45.0
     path: .
   path: _sources/toolhive
 - contents:
