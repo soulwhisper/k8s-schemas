@@ -1,12 +1,12 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: 72aeba4cac7e7880335d6967947c4cce5f7b217d386242c41bac433c37cc49bf
+  - configDigest: ae9cd27deeed67c465ec4f70c0f455b57bf02eaee54137cfaf04c0603e36cebf
     git:
-      commitTitle: 'promptGuard: apply guard to merged consecutive text blocks (#2755)...'
-      sha: 163ea2146acb7b82082acea30ed691b29079095f
+      commitTitle: Substrate Refinements (#3174)...
+      sha: fe6732474a96a0363dfb9822859af4e9bab360fa
       tags:
-      - v1.4.1
+      - v1.5.0
     path: .
   path: _sources/agentgateway
 - contents:
@@ -182,21 +182,21 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 64129791820f2128e9d5a61a1b0158826ad13aab659ee57c76bca2da64f014e4
+  - configDigest: dcf40fbdc763ee5ab77a823ddb86c04beef7b371d4fb6273ae90c56f344968d9
     git:
-      commitTitle: Release v0.45.0 (#6436)...
-      sha: cc922a8b47652988ae4d057a957942385fc59270
+      commitTitle: Release v0.46.0 (#6448)...
+      sha: c6c425a924fac51c86cbade15d0e720e29a600ab
       tags:
-      - v0.45.0
+      - v0.46.0
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: fc15e942ef15336dc5ed6454e2b9761de63dd27ae248fceb9bb8feb45e7166fb
+  - configDigest: 20244264c2ff4671604c52453cdbae9f6162057e6a3af4a048dc4a2697b27353
     git:
-      commitTitle: 'chore(release): 0.5.0 (#483)'
-      sha: 6da4415f140bfee9b17667b532b45e09f50fabf6
+      commitTitle: 'chore(release): 0.5.2 (#530)'
+      sha: 4b42da0e639c00c96334c534ea07966f23ba0ed3
       tags:
-      - 0.5.0
+      - 0.5.2
     path: .
   path: _sources/tuppr
 - contents:
