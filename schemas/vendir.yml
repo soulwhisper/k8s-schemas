@@ -102,7 +102,7 @@ directories:
       - path: .
         git:
           url: https://github.com/external-secrets/external-secrets
-          ref: v2.9.0
+          ref: v2.10.0
         includePaths:
           - config/crds/bases/external-*.yaml
           - config/crds/bases/generators*.yaml
@@ -116,7 +116,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/envoyproxy/gateway
-          ref: v1.9.0
+          ref: v1.9.1
         includePaths:
           - charts/gateway-crds-helm/templates/generated/*.yaml
 
