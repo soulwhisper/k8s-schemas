@@ -82,33 +82,33 @@ directories:
     path: .
   path: _sources/envoy-gateway
 - contents:
-  - configDigest: c092cfaf134592f28cea2a9dcd3076772ae05555542bb8dcb1b828d56e3f6de8
+  - configDigest: 3b491adae4a55eda0a77b7177fa91ece47fb7953a0ba2cdf1d27feda571f3133
     git:
-      commitTitle: 'Merge pull request #1549 from fluxcd/release-v1.6.3...'
-      sha: 372c34e2b4a455d24ef6cbb8321c82c4533dbbd8
+      commitTitle: 'Merge pull request #1573 from fluxcd/release-v1.6.4...'
+      sha: 561379cd309d56a5037f2261848065eeee6a1a7a
       tags:
-      - v1.6.3
+      - v1.6.4
     path: helm-controller
-  - configDigest: 6a9709ee15e706732e66b725060a00340d00b45484dc58183fee2626a0933e17
+  - configDigest: 56075b91161166cb4f8e76cfb281ae934117aabd2623bea14f50c0dd53ea449c
     git:
-      commitTitle: 'Merge pull request #1365 from fluxcd/release-v1.9.3...'
-      sha: 0b6fcb118ea64a36d7ca7d29904e4f5075be87bc
+      commitTitle: 'Merge pull request #1376 from fluxcd/release-v1.9.4...'
+      sha: a1dff35982bf7faf937f38ca2d5219907a6016d3
       tags:
-      - v1.9.3
+      - v1.9.4
     path: notification-controller
-  - configDigest: b5e7e3647c26826030310b2dbae7c6c246ff22f3dbb8603ca0fd4c24ece11ca4
+  - configDigest: d847c9a7b539cc095dbf833534f481a4f70e7f00472d8f1eacb15ca0f60ca39f
     git:
-      commitTitle: 'Merge pull request #1716 from fluxcd/release-v1.9.4...'
-      sha: 1324b615da01038e2859cbcde604bd5434f21933
+      commitTitle: 'Merge pull request #1732 from fluxcd/release-v1.9.5...'
+      sha: d5d5d2bf9d9cf3cb33c3150f47990bb22781334a
       tags:
-      - v1.9.4
+      - v1.9.5
     path: kustomize-controller
-  - configDigest: 8f728bee6ec0e87ac83bf79e5ff8eb416c5af65db378ec2ac0673407a5735ad7
+  - configDigest: 2d338c6e365490209f24fae1246becf5b98c21cf1a0454aafb548737f6494cd7
     git:
-      commitTitle: 'Merge pull request #2132 from fluxcd/release-v1.9.4...'
-      sha: 6b10a9e4225bdf2def44b817bd080eddb42d2133
+      commitTitle: 'Merge pull request #2143 from fluxcd/release-v1.9.5...'
+      sha: 53194ad4730ebf07718b29d58f66efd6938fd3da
       tags:
-      - v1.9.4
+      - v1.9.5
     path: source-controller
   path: _sources/fluxcd
 - contents:
@@ -136,12 +136,12 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: 6123c14b787cb1eff27419768f33daa23ed68991d7536eff9278a159ee63e950
+  - configDigest: 47340304cf5ba89d689d0b0107eb3bdf29dc391ebecc950124b6dfa88584b0d1
     git:
-      commitTitle: '[2.4] bump: bumps go toolchain and numerous dependencies (#14590)...'
-      sha: b2a63fdd03d4c6c0d6cb013b519f85cf13907c34
+      commitTitle: '[2.4] fix: SDS binds to loopback address (#14639)...'
+      sha: 844fbde7c377de2370b2f0a9a696480cf3e878a4
       tags:
-      - v2.4.3
+      - v2.4.4
     path: .
   path: _sources/kgateway
 - contents:
