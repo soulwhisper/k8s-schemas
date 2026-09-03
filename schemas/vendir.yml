@@ -186,7 +186,7 @@ directories:
       - path: .
         git:
           url: https://github.com/kubernetes-sigs/gateway-api
-          ref: v1.6.1
+          ref: v1.6.2
         includePaths:
           - config/crd/experimental/gateway*.yaml
 
@@ -280,7 +280,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/tuppr
-          ref: 0.5.2
+          ref: 0.5.3
         includePaths:
           - config/crd/bases/*.yaml
 

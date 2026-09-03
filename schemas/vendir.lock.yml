@@ -129,10 +129,10 @@ directories:
   path: _sources/grafana-operator
 - contents:
   - git:
-      commitTitle: update vap (#5073)
-      sha: 8bb74df00e56ec8f944d48c25e6c1c9c2f6848e3
+      commitTitle: 'chore: Prep for v1.6.2 release (#5217)'
+      sha: ca6c2a65454737236fb7a937bd9b17e42b07e9de
       tags:
-      - conformance/v1.6.1
+      - conformance/v1.6.2
     path: .
   path: _sources/gateway-api
 - contents:
@@ -191,12 +191,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: 20244264c2ff4671604c52453cdbae9f6162057e6a3af4a048dc4a2697b27353
+  - configDigest: d0379a240e742e0c6926963c50fd5791d1238ac8945b26222f9da81ca6d6cbf8
     git:
-      commitTitle: 'chore(release): 0.5.2 (#530)'
-      sha: 4b42da0e639c00c96334c534ea07966f23ba0ed3
+      commitTitle: 'chore(release): 0.5.3 (#535)'
+      sha: 802aafd7e5e27eb2f28d3fe9aba7224c0975a63a
       tags:
-      - 0.5.2
+      - 0.5.3
     path: .
   path: _sources/tuppr
 - contents:
