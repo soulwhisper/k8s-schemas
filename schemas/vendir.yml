@@ -88,6 +88,7 @@ directories:
   - path: _sources/external-dns
     contents:
       - path: .
+        lazy: true
         git:
           url: https://github.com/kubernetes-sigs/external-dns
           ref: v0.22.0
@@ -100,6 +101,7 @@ directories:
   - path: _sources/external-secrets
     contents:
       - path: .
+        lazy: true
         git:
           url: https://github.com/external-secrets/external-secrets
           ref: v2.10.0
@@ -160,6 +162,7 @@ directories:
   - path: _sources/frr-k8s
     contents:
       - path: .
+        lazy: true
         git:
           url: https://github.com/metallb/frr-k8s
           ref: v0.0.26
@@ -172,6 +175,7 @@ directories:
   - path: _sources/grafana-operator
     contents:
       - path: .
+        lazy: true
         git:
           url: https://github.com/grafana/grafana-operator
           ref: v5.25.0
@@ -184,6 +188,7 @@ directories:
   - path: _sources/gateway-api
     contents:
       - path: .
+        lazy: true
         git:
           url: https://github.com/kubernetes-sigs/gateway-api
           ref: v1.6.2
@@ -202,6 +207,19 @@ directories:
           ref: v2.4.4
         includePaths:
           - install/helm/kgateway-crds/templates/*.yaml
+
+  # ---------------------------------------------------------
+  # Folder : kopiur
+  # ---------------------------------------------------------
+  - path: _sources/kopiur
+    contents:
+      - path: .
+        lazy: true
+        git:
+          url: https://github.com/home-operations/kopiur
+          ref: 0.10.7
+        includePaths:
+          - deploy/helm/kopiur/crds/*.yaml
 
   # ---------------------------------------------------------
   # Folder : kyverno
@@ -303,6 +321,7 @@ directories:
   - path: _sources/volsync
     contents:
       - path: .
+        lazy: true
         git:
           url: https://github.com/backube/volsync
           ref: v0.16.0

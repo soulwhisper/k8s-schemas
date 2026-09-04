@@ -145,6 +145,15 @@ directories:
     path: .
   path: _sources/kgateway
 - contents:
+  - configDigest: 1bfef09ad57362e6435f4f41451bef8dd08eb22f53202a1a0a9ee6613cd7a65c
+    git:
+      commitTitle: 'chore(release): 0.10.7 (#438)...'
+      sha: 05da622612bd113da66b3a9da70008d0779e51d4
+      tags:
+      - 0.10.7
+    path: .
+  path: _sources/kopiur
+- contents:
   - configDigest: b73c558ec393cdef532b5a9792f7a6d62dc36304d5ca4f150c543bb0089c944a
     git:
       commitTitle: 'chore: cut release v1.19.0 (#17238)...'

@@ -21,5 +21,23 @@
       automergeType: "pr",
       ignoreTests: false,
     },
+    {
+      description: "vendir: unprefixed-semver extraction for chart-family tags (cloudnative-pg)",
+      matchManagers: ["vendir"],
+      matchDepNames: ["https://github.com/cloudnative-pg/charts"],
+      versionCompatibility: "^(?<compatibility>cloudnative-pg)-v(?<version>\\d+\\.\\d+\\.\\d+)$",
+    },
+    {
+      description: "vendir: unprefixed-semver extraction for chart-family tags (prometheus-operator-crds)",
+      matchManagers: ["vendir"],
+      matchDepNames: ["https://github.com/prometheus-community/helm-charts"],
+      versionCompatibility: "^(?<compatibility>prometheus-operator-crds)-(?<version>\\d+\\.\\d+\\.\\d+)$",
+    },
+    {
+      description: "vendir: unprefixed-semver extraction for chart-family tags (victoria-metrics-operator-crds)",
+      matchManagers: ["vendir"],
+      matchDepNames: ["https://github.com/VictoriaMetrics/helm-charts"],
+      versionCompatibility: "^(?<compatibility>victoria-metrics-operator-crds)-(?<version>\\d+\\.\\d+\\.\\d+)$",
+    },
   ],
 }
