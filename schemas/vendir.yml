@@ -55,6 +55,8 @@ directories:
         includePaths:
           - config/crd/bases/*.yaml
 
+  # STALLED: pinned cloudnative-pg-v0.28.2, upstream cloudnative-pg-v0.29.0 (renovate not proposing)
+
   # ---------------------------------------------------------
   # Folder : cloudnative-pg
   # ---------------------------------------------------------
@@ -204,6 +206,19 @@ directories:
           - install/helm/kgateway-crds/templates/*.yaml
 
   # ---------------------------------------------------------
+  # Folder : kopiur
+  # ---------------------------------------------------------
+  - path: _sources/kopiur
+    contents:
+      - path: .
+        lazy: true
+        git:
+          url: https://github.com/home-operations/kopiur
+          ref: 0.10.7
+        includePaths:
+          - deploy/helm/kopiur/crds/*.yaml
+
+  # ---------------------------------------------------------
   # Folder : kyverno
   # ---------------------------------------------------------
   - path: _sources/kyverno
@@ -217,6 +232,8 @@ directories:
           - charts/kyverno/charts/crds/templates/kyverno.io/*.yaml
           - charts/kyverno/charts/crds/templates/reports.kyverno.io/*.yaml
           - charts/kyverno/charts/crds/templates/wgpolicyk8s.io/*.yaml
+
+  # STALLED: pinned prometheus-operator-crds-29.0.0, upstream prometheus-operator-crds-31.0.1 (renovate not proposing)
 
   # ---------------------------------------------------------
   # Folder : prometheus
@@ -283,6 +300,8 @@ directories:
           ref: 0.5.3
         includePaths:
           - config/crd/bases/*.yaml
+
+  # STALLED: pinned victoria-metrics-operator-crds-0.10.1, upstream victoria-metrics-operator-crds-0.14.0 (renovate not proposing)
 
   # ---------------------------------------------------------
   # Folder : victoria-metrics
