@@ -64,7 +64,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cloudnative-pg/charts
-          ref: cloudnative-pg-v0.28.2
+          ref: cloudnative-pg-v0.29.0
         includePaths:
           - "charts/cloudnative-pg/templates/crds/crds.yaml"
           - "charts/plugin-barman-cloud/templates/crds/crds.yaml"
@@ -245,7 +245,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/prometheus-community/helm-charts
-          ref: prometheus-operator-crds-29.0.0
+          ref: prometheus-operator-crds-31.0.1
         includePaths:
           - charts/prometheus-operator-crds/charts/crds/templates/crd-*.yaml
 
@@ -311,7 +311,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/VictoriaMetrics/helm-charts
-          ref: victoria-metrics-operator-crds-0.10.1
+          ref: victoria-metrics-operator-crds-0.14.0
         includePaths:
           - charts/victoria-metrics-operator/crd.yaml
 
