@@ -37,12 +37,12 @@ directories:
     path: .
   path: _sources/clickhouse
 - contents:
-  - configDigest: 91ca4ead579f6b7854906cc3e52af96cde743b9e244f4da380f42b27c1dc120b
+  - configDigest: b0715702f660cbb3f39d8beca6b5fb639ffe9e9d04f9fd37d13408cba4139a6b
     git:
-      commitTitle: Release cloudnative-pg-v0.28.2 (#871)...
-      sha: 1cc064ac89730116588783ef2f85cf0af9406e26
+      commitTitle: Release cloudnative-pg-v0.29.0 (#935)...
+      sha: d1b5ad60cee2d9432a9cc05627b42a8d8dc7bbae
       tags:
-      - cloudnative-pg-v0.28.2
+      - cloudnative-pg-v0.29.0
     path: .
   path: _sources/cloudnative-pg
 - contents:
@@ -56,7 +56,8 @@ directories:
     path: .
   path: _sources/dragonflydb
 - contents:
-  - git:
+  - configDigest: 267d3865226db6708d0344df6ca052ee2f62d6bd5e1c54afbdd4fefe330a8605
+    git:
       commitTitle: bump dependencies for release (#6643)...
       sha: 994f908d4abdfe5fbf38f2f61613ed570432e43a
       tags:
@@ -64,7 +65,8 @@ directories:
     path: .
   path: _sources/external-dns
 - contents:
-  - git:
+  - configDigest: b557c97ca472ca7d10e0042f80e411a2d9899528925ad4b27a8a437115352a49
+    git:
       commitTitle: 'feat(github): support Dependabot secrets (#6878)...'
       sha: 279f56c84d5d4058c3bfdeeaf5b1c2febb8851c0
       tags:
@@ -112,7 +114,8 @@ directories:
     path: source-controller
   path: _sources/fluxcd
 - contents:
-  - git:
+  - configDigest: f17129ed65e82c31c36d3ac4037c5880f47fb3ba93d8a3ef2f5382241cd5e8cd
+    git:
       commitTitle: Automated update for release v0.0.26
       sha: 91642ae6aad98b4346b6852332ee83c1bce5b033
       tags:
@@ -120,7 +123,8 @@ directories:
     path: .
   path: _sources/frr-k8s
 - contents:
-  - git:
+  - configDigest: 30b97af8cc84101faf9dd2955ac0953cf11e3c435be8b5ce3e7fae5429ba246d
+    git:
       commitTitle: 'fix(ci): set subdir for commit action (#2915)'
       sha: 1d8584df2127ad9341567efb2683adaf25894ebe
       tags:
@@ -128,7 +132,8 @@ directories:
     path: .
   path: _sources/grafana-operator
 - contents:
-  - git:
+  - configDigest: 1de6863c3a51217dee10d91fc0ca8918fdb3ac904cffb2dab907a30f67124c3e
+    git:
       commitTitle: 'chore: Prep for v1.6.2 release (#5217)'
       sha: ca6c2a65454737236fb7a937bd9b17e42b07e9de
       tags:
@@ -163,13 +168,13 @@ directories:
     path: .
   path: _sources/kyverno
 - contents:
-  - configDigest: 016f10dad66a73ffe8679c67c4135ae7a35ce79a3c90bbdb8e2f8af66aaa43a3
+  - configDigest: 87ef40914281bbbea697f52eb1adb7597d3d9b7c6c221ac6703f4558848da9b9
     git:
       commitTitle: '[prometheus-operator-crds] Update dependency prometheus-operator/prometheus-operator
-        to v0.91.0 (#6892)...'
-      sha: 7897ac7761509208307f5cfd8066f8a6fe5a33df
+        to v0.93.1 (#7180)...'
+      sha: 4529d7bb4b4be3b2aa8ef0b4d40152d394213a61
       tags:
-      - prometheus-operator-crds-29.0.0
+      - prometheus-operator-crds-31.0.1
     path: .
   path: _sources/prometheus
 - contents:
@@ -209,17 +214,17 @@ directories:
     path: .
   path: _sources/tuppr
 - contents:
-  - configDigest: e1be80ecfdf0c9845285fce149009adae5bdf65cd73f6047cc4a6af7a790887d
+  - configDigest: 55910547811b36674c1c54ac7725c94c1ed836caa8c55367ce2f90de4fbbb481
     git:
-      commitTitle: 'charts: Update victoriametrics/operator Docker tag to v0.70.1
-        (#2914)...'
-      sha: f6601faad6bb61e8cbb3870255d4ee32616165a7
+      commitTitle: 'operator: release app and crds charts'
+      sha: 284c37b8e7dd7489d16bc4ce36a64d59475d8bc8
       tags:
-      - victoria-metrics-operator-0.63.1
+      - victoria-metrics-operator-0.67.0
     path: .
   path: _sources/victoria-metrics
 - contents:
-  - git:
+  - configDigest: 20ea5e9741929f25584abb796a562840c432dadf5002d52db2f0a7fd8f3c838c
+    git:
       commitTitle: 'Merge pull request #2022 from openshift-cherrypick-robot/cherry-pick-2020-to-release-0.16...'
       sha: 22b97b0717c74f328853d92877151392ff5ecb42
       tags:
