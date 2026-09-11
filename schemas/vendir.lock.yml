@@ -10,12 +10,12 @@ directories:
     path: .
   path: _sources/agentgateway
 - contents:
-  - configDigest: 4e6b98cb0f3981ecefe39965496967dc822cb1e121e1fa323562273adb890e90
+  - configDigest: aebfe407278a805e4db25b0ecf2be5897f54886b29c98604b3924a92fd7a3e9d
     git:
-      commitTitle: 'Merge pull request #9083 from cert-manager-bot/cherry-pick-9042-to-release-1.21...'
-      sha: 24e33194fb39488eff2bbf10c6dc640f407cad44
+      commitTitle: 'Merge pull request #9323 from wallrj/release-1.21-go-1.26.8...'
+      sha: 922a06aa49ee4bb802db268ef72a174af70edd32
       tags:
-      - v1.21.1
+      - v1.21.2
     path: .
   path: _sources/cert-manager
 - contents:
@@ -159,22 +159,22 @@ directories:
     path: .
   path: _sources/kopiur
 - contents:
-  - configDigest: b73c558ec393cdef532b5a9792f7a6d62dc36304d5ca4f150c543bb0089c944a
+  - configDigest: 7c1af70ad8df9970301de0ef3ec1ea8692c8730995a6b5be31111698dcf1ce05
     git:
-      commitTitle: 'chore: cut release v1.19.0 (#17238)...'
-      sha: ee97ce09538b09b6f1b03853cc41a62654d6a58f
+      commitTitle: 'chore: cut release v1.19.1 (#17541)...'
+      sha: 40ec788d48bb28d83dbf85538e962a59db9d45c6
       tags:
-      - kyverno-chart-3.9.0
+      - kyverno-chart-3.9.1
     path: .
   path: _sources/kyverno
 - contents:
-  - configDigest: 87ef40914281bbbea697f52eb1adb7597d3d9b7c6c221ac6703f4558848da9b9
+  - configDigest: ef4f441691ede8064eb4464202dca3a92c387dd54c719335447b2437d5f7ba8e
     git:
       commitTitle: '[prometheus-operator-crds] Update dependency prometheus-operator/prometheus-operator
-        to v0.93.1 (#7180)...'
-      sha: 4529d7bb4b4be3b2aa8ef0b4d40152d394213a61
+        to v0.94.0 (#7255)...'
+      sha: b1af241e4802392c3a7fe2fb97affe5becb37e5d
       tags:
-      - prometheus-operator-crds-31.0.1
+      - prometheus-operator-crds-32.0.0
     path: .
   path: _sources/prometheus
 - contents:
@@ -196,12 +196,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 291b2a527c8ed7701fcb56cc4d5a55a6090ec7aea1decedbc717126f33466490
+  - configDigest: b0d7b6eb6c883d13b66c22395cb7218ef40dad6152f960ca5b5429bb62090051
     git:
-      commitTitle: Release v0.47.1 (#6554)...
-      sha: 73c80e34a2ec77eca54ba61b70cdb453df0e853f
+      commitTitle: Release v0.49.0 (#6649)...
+      sha: e532cf07d45fa99f3e4e63819396a3e9c9fd763f
       tags:
-      - v0.47.1
+      - v0.49.0
     path: .
   path: _sources/toolhive
 - contents:
