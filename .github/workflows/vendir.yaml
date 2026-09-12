@@ -35,8 +35,7 @@ jobs:
           ref: ${{ github.head_ref || github.ref }}
 
       - uses: DeterminateSystems/nix-installer-action@v23
-      - uses: DeterminateSystems/magic-nix-cache-action@v14
-
+      - uses: DeterminateSystems/magic-nix-cache-action@v15
       - name: Sync
         run: nix develop -c just sync
 
