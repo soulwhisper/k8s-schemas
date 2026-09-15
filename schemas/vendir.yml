@@ -37,7 +37,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cilium/cilium
-          ref: v1.20.1
+          ref: v1.20.2
         includePaths:
           - pkg/k8s/apis/cilium.io/client/crds/v2alpha1/*.yaml
           - pkg/k8s/apis/cilium.io/client/crds/v2/*.yaml
