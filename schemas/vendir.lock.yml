@@ -19,12 +19,12 @@ directories:
     path: .
   path: _sources/cert-manager
 - contents:
-  - configDigest: c3a83a5f0dcdc862098bb8a523b6e773a58ad442e75dd52a482c0b4008345eff
+  - configDigest: 69c982e0a93a0c2964124ce681eb34aa2dfb863ab14dac0df7eb7df63eb85838
     git:
-      commitTitle: Prepare for release v1.20.1...
-      sha: 7d68cfb394f2960e10aa72e76d0d51e66c1b2ebc
+      commitTitle: Prepare for release v1.20.2...
+      sha: e0dc92bd6dac33d7ba3b5eace82a0448bbb13aac
       tags:
-      - 1.20.1
+      - v1.20.2
     path: .
   path: _sources/cilium
 - contents:
