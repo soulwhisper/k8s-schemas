@@ -141,12 +141,12 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: 47340304cf5ba89d689d0b0107eb3bdf29dc391ebecc950124b6dfa88584b0d1
+  - configDigest: e660caa9a8a87680d9a12e84dccf22ea0ef68dd70ed3e79276d568aa3aedf5d7
     git:
-      commitTitle: '[2.4] fix: SDS binds to loopback address (#14639)...'
-      sha: 844fbde7c377de2370b2f0a9a696480cf3e878a4
+      commitTitle: '[2.4] Test flake fixes (#14714)...'
+      sha: cb1dd3c8102e697b218acfb5d91306e65c9e59f2
       tags:
-      - v2.4.4
+      - v2.4.5
     path: .
   path: _sources/kgateway
 - contents:
