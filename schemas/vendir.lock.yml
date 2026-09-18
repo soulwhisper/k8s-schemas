@@ -56,21 +56,22 @@ directories:
     path: .
   path: _sources/dragonflydb
 - contents:
-  - configDigest: 267d3865226db6708d0344df6ca052ee2f62d6bd5e1c54afbdd4fefe330a8605
+  - configDigest: eae03541a7148c939c6ef62cfb2f238b25a5608f040b1bac13534e62302b4e8a
     git:
-      commitTitle: bump dependencies for release (#6643)...
-      sha: 994f908d4abdfe5fbf38f2f61613ed570432e43a
+      commitTitle: 'fix(cloudflare): normalize provider-specific property names at
+        ingestion (#6731)...'
+      sha: a10c5665a5bc30e7163eb17e853e317964500e99
       tags:
-      - v0.22.0
+      - v0.23.0
     path: .
   path: _sources/external-dns
 - contents:
-  - configDigest: b557c97ca472ca7d10e0042f80e411a2d9899528925ad4b27a8a437115352a49
+  - configDigest: c0bd2a5f418d00b329a519e877fea7f5826a805957adcff4a89d2e2953038f81
     git:
-      commitTitle: 'feat(github): support Dependabot secrets (#6878)...'
-      sha: 279f56c84d5d4058c3bfdeeaf5b1c2febb8851c0
+      commitTitle: 'chore: prepare release support matrix (#6993)...'
+      sha: e8f12e1f1646e0ad47966458023ff10c9577f2b0
       tags:
-      - v2.10.0
+      - v2.11.0
     path: .
   path: _sources/external-secrets
 - contents:
@@ -196,12 +197,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: b0d7b6eb6c883d13b66c22395cb7218ef40dad6152f960ca5b5429bb62090051
+  - configDigest: e9ca65c5e8a77ca43b2934c809d160cd5b0122830848610ab8ffab9f654c540f
     git:
-      commitTitle: Release v0.49.0 (#6649)...
-      sha: e532cf07d45fa99f3e4e63819396a3e9c9fd763f
+      commitTitle: Release v0.50.0 (#6691)...
+      sha: 6e873dea4d89e4d86aa6c97c3c34f08b3721f984
       tags:
-      - v0.49.0
+      - v0.50.0
     path: .
   path: _sources/toolhive
 - contents:
