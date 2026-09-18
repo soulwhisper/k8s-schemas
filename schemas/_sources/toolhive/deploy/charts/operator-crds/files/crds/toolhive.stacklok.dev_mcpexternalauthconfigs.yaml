@@ -1328,7 +1328,9 @@ spec:
                                 defaults to "ca.crt" for backwards compatibility.
                               properties:
                                 key:
-                                  description: The key to select.
+                                  description: |-
+                                    The key to select from the ConfigMap's Data field.
+                                    Keys in the BinaryData field are not currently propagated to container env vars.
                                   type: string
                                 name:
                                   default: ""
@@ -1546,6 +1548,20 @@ spec:
                                 scope, state, code_challenge, code_challenge_method, nonce) are not allowed.
                               maxProperties: 16
                               type: object
+                            additionalTokenParams:
+                              additionalProperties:
+                                type: string
+                              description: |-
+                                AdditionalTokenParams are extra form-body parameters to include in
+                                token requests (authorization code exchange and refresh) sent to the
+                                upstream provider's token endpoint.
+                                This is useful for providers that enforce RFC 8707 resource indicators
+                                on token requests, where the resource parameter must accompany the code
+                                exchange and refresh, not only the authorization request.
+                                Framework-managed parameters (grant_type, code, redirect_uri, client_id,
+                                client_secret, code_verifier, refresh_token, scope) are not allowed.
+                              maxProperties: 16
+                              type: object
                             allowPrivateIPs:
                               description: |-
                                 AllowPrivateIPs permits the upstream provider's HTTP client to connect to
@@ -1573,7 +1589,9 @@ spec:
                                     defaults to "ca.crt" for backwards compatibility.
                                   properties:
                                     key:
-                                      description: The key to select.
+                                      description: |-
+                                        The key to select from the ConfigMap's Data field.
+                                        Keys in the BinaryData field are not currently propagated to container env vars.
                                       type: string
                                     name:
                                       default: ""
@@ -1917,6 +1935,20 @@ spec:
                                 scope, state, code_challenge, code_challenge_method, nonce) are not allowed.
                               maxProperties: 16
                               type: object
+                            additionalTokenParams:
+                              additionalProperties:
+                                type: string
+                              description: |-
+                                AdditionalTokenParams are extra form-body parameters to include in
+                                token requests (authorization code exchange and refresh) sent to the
+                                upstream provider's token endpoint.
+                                This is useful for providers that enforce RFC 8707 resource indicators
+                                on token requests, where the resource parameter must accompany the code
+                                exchange and refresh, not only the authorization request.
+                                Framework-managed parameters (grant_type, code, redirect_uri, client_id,
+                                client_secret, code_verifier, refresh_token, scope) are not allowed.
+                              maxProperties: 16
+                              type: object
                             allowPrivateIPs:
                               description: |-
                                 AllowPrivateIPs permits the upstream provider's HTTP client to connect to
@@ -1937,7 +1969,9 @@ spec:
                                     defaults to "ca.crt" for backwards compatibility.
                                   properties:
                                     key:
-                                      description: The key to select.
+                                      description: |-
+                                        The key to select from the ConfigMap's Data field.
+                                        Keys in the BinaryData field are not currently propagated to container env vars.
                                       type: string
                                     name:
                                       default: ""
@@ -4129,7 +4163,9 @@ spec:
                                 defaults to "ca.crt" for backwards compatibility.
                               properties:
                                 key:
-                                  description: The key to select.
+                                  description: |-
+                                    The key to select from the ConfigMap's Data field.
+                                    Keys in the BinaryData field are not currently propagated to container env vars.
                                   type: string
                                 name:
                                   default: ""
@@ -4347,6 +4383,20 @@ spec:
                                 scope, state, code_challenge, code_challenge_method, nonce) are not allowed.
                               maxProperties: 16
                               type: object
+                            additionalTokenParams:
+                              additionalProperties:
+                                type: string
+                              description: |-
+                                AdditionalTokenParams are extra form-body parameters to include in
+                                token requests (authorization code exchange and refresh) sent to the
+                                upstream provider's token endpoint.
+                                This is useful for providers that enforce RFC 8707 resource indicators
+                                on token requests, where the resource parameter must accompany the code
+                                exchange and refresh, not only the authorization request.
+                                Framework-managed parameters (grant_type, code, redirect_uri, client_id,
+                                client_secret, code_verifier, refresh_token, scope) are not allowed.
+                              maxProperties: 16
+                              type: object
                             allowPrivateIPs:
                               description: |-
                                 AllowPrivateIPs permits the upstream provider's HTTP client to connect to
@@ -4374,7 +4424,9 @@ spec:
                                     defaults to "ca.crt" for backwards compatibility.
                                   properties:
                                     key:
-                                      description: The key to select.
+                                      description: |-
+                                        The key to select from the ConfigMap's Data field.
+                                        Keys in the BinaryData field are not currently propagated to container env vars.
                                       type: string
                                     name:
                                       default: ""
@@ -4718,6 +4770,20 @@ spec:
                                 scope, state, code_challenge, code_challenge_method, nonce) are not allowed.
                               maxProperties: 16
                               type: object
+                            additionalTokenParams:
+                              additionalProperties:
+                                type: string
+                              description: |-
+                                AdditionalTokenParams are extra form-body parameters to include in
+                                token requests (authorization code exchange and refresh) sent to the
+                                upstream provider's token endpoint.
+                                This is useful for providers that enforce RFC 8707 resource indicators
+                                on token requests, where the resource parameter must accompany the code
+                                exchange and refresh, not only the authorization request.
+                                Framework-managed parameters (grant_type, code, redirect_uri, client_id,
+                                client_secret, code_verifier, refresh_token, scope) are not allowed.
+                              maxProperties: 16
+                              type: object
                             allowPrivateIPs:
                               description: |-
                                 AllowPrivateIPs permits the upstream provider's HTTP client to connect to
@@ -4738,7 +4804,9 @@ spec:
                                     defaults to "ca.crt" for backwards compatibility.
                                   properties:
                                     key:
-                                      description: The key to select.
+                                      description: |-
+                                        The key to select from the ConfigMap's Data field.
+                                        Keys in the BinaryData field are not currently propagated to container env vars.
                                       type: string
                                     name:
                                       default: ""
