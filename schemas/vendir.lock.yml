@@ -206,12 +206,12 @@ directories:
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: b80a538056748c81a3d5da6dfd9e53463c4b83b36f6759484943d08c2664675c
+  - configDigest: 6a05f3427294fb9a0a8800fc585ee40cd41cbf50729f587c06154173aa3dd546
     git:
-      commitTitle: 'chore(release): 0.5.6 (#573)'
-      sha: fd88abab181bfe9233927fdc19e3c32c1599d763
+      commitTitle: 'chore(release): 0.5.7 (#585)'
+      sha: 2d0f0311a8fc2f3cdd639f441b88fe22efd7f32d
       tags:
-      - 0.5.6
+      - 0.5.7
     path: .
   path: _sources/tuppr
 - contents:
