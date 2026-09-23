@@ -37,12 +37,12 @@ directories:
     path: .
   path: _sources/clickhouse
 - contents:
-  - configDigest: b0715702f660cbb3f39d8beca6b5fb639ffe9e9d04f9fd37d13408cba4139a6b
+  - configDigest: 48d167a0b4b0f9d91cb08b2d6e98ce17a67022621cb91802daf865a186df8143
     git:
-      commitTitle: Release cloudnative-pg-v0.29.0 (#935)...
-      sha: d1b5ad60cee2d9432a9cc05627b42a8d8dc7bbae
+      commitTitle: Release cloudnative-pg-v0.29.1 (#1027)...
+      sha: effa01d9a7d6fa390712a83bbadad1784940f2f4
       tags:
-      - cloudnative-pg-v0.29.0
+      - cloudnative-pg-v0.29.1
     path: .
   path: _sources/cloudnative-pg
 - contents:
