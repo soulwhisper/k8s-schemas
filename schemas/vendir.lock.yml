@@ -28,12 +28,13 @@ directories:
     path: .
   path: _sources/cilium
 - contents:
-  - configDigest: 889d64a2d8a5feda75592bd1d08f12085e2baff1d6624edb5d1904051a55b164
+  - configDigest: 9abdb1f861e98ccab861d20300c725a35a6e3131cbc71a9d2b31aeb462f40c6a
     git:
-      commitTitle: 'docs: clarify topologyZoneKey and nodeHostnameKey semantics (#271)...'
-      sha: 24da2d81a832c524ff7898dc8d04baa1ff63f49a
+      commitTitle: 'docs: systemLogsTTLDays defaults on new clusters only; Keeper
+        raft_logs_level follows logger.level (#348)...'
+      sha: ebcb5b6c7b2031e88671b4281f2b8ae60f6f71fd
       tags:
-      - v0.0.7
+      - v0.0.8
     path: .
   path: _sources/clickhouse
 - contents:
@@ -151,12 +152,12 @@ directories:
     path: .
   path: _sources/kgateway
 - contents:
-  - configDigest: 2092a5f3222df79aa2e4d9f15d86f23e267320b89103cc845f56fceae4e883c0
+  - configDigest: e924836ca3196d485e966e2c3cc7cf73657b44493cfe721d77aa848be0c23634
     git:
-      commitTitle: 'chore(release): 0.10.9 (#454)...'
-      sha: b11ec2cd534b5a552fc5764fcde1a26ffb8934a8
+      commitTitle: 'chore(release): 0.10.10 (#471)...'
+      sha: 498e96bf9e8fe1e2b3db25dd03aa526cd542b727
       tags:
-      - 0.10.9
+      - 0.10.10
     path: .
   path: _sources/kopiur
 - contents:

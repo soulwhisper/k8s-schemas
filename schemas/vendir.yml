@@ -51,7 +51,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/ClickHouse/clickhouse-operator
-          ref: v0.0.7
+          ref: v0.0.8
         includePaths:
           - config/crd/bases/*.yaml
 
@@ -217,7 +217,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/kopiur
-          ref: 0.10.9
+          ref: 0.10.10
         includePaths:
           - deploy/helm/kopiur/crds/*.yaml
 
