@@ -215,12 +215,12 @@ directories:
     path: .
   path: _sources/tuppr
 - contents:
-  - configDigest: 55910547811b36674c1c54ac7725c94c1ed836caa8c55367ce2f90de4fbbb481
+  - configDigest: ebb2db3d60668c83005abd63fd6033632bc536567a7cc5bfed245a42c2c5c9fa
     git:
-      commitTitle: 'operator: release app and crds charts'
-      sha: 284c37b8e7dd7489d16bc4ce36a64d59475d8bc8
+      commitTitle: 'crds: release 0.15.0'
+      sha: c0b5a51e1db5e53dcd1ea6803a29299979e49e4d
       tags:
-      - victoria-metrics-operator-0.67.0
+      - victoria-metrics-operator-crds-0.15.0
     path: .
   path: _sources/victoria-metrics
 - contents:
