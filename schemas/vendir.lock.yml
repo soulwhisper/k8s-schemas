@@ -47,13 +47,13 @@ directories:
     path: .
   path: _sources/cloudnative-pg
 - contents:
-  - configDigest: 7aefdeab4a642103fc814ed0076ff850a6ae900f9ab8a25524e0947fc91ccac6
+  - configDigest: b941620c52b5f0ddd5f4ec600f3511aaa6ab7d32edfc66c5d67381e1ee4554bb
     git:
-      commitTitle: 'fix(chart): bump version to v1.6.1 with missing configmap role
-        (#543)...'
-      sha: b28637d78d828f80a3b3fd76acaa2dd6e3c28603
+      commitTitle: 'feat(release): update manifest files and bump operator version
+        (#597)...'
+      sha: 9a5522426e6ddabb914d167ee82a192c9f682c79
       tags:
-      - v1.6.1
+      - v1.7.0
     path: .
   path: _sources/dragonflydb
 - contents:
@@ -76,13 +76,12 @@ directories:
     path: .
   path: _sources/external-secrets
 - contents:
-  - configDigest: 4eed51af776b63eeca3cdabb01be19a7fee19edd777d58d271269d5dbcc4d981
+  - configDigest: c773ac9139f3b27fb36a54a64ed44b88f7822a13bf73ceb393f4735068a2b187
     git:
-      commitTitle: '[release-1.9] cherry pick v1.9.1 release notes and chore commits
-        (#9885)...'
-      sha: 0260554fd4f33b787aad77a129fc0ffeb00c1f29
+      commitTitle: '[release-1.9] Bump ratelimit version (#10136)...'
+      sha: f9f92a112a4033abed5c8d43a5f7e37da257403c
       tags:
-      - v1.9.1
+      - v1.9.2
     path: .
   path: _sources/envoy-gateway
 - contents:
