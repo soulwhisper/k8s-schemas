@@ -179,12 +179,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: 62700bf735ecc5158aae72d73d9827f892004d8f3f4eb03d66d52f7e0a661320
+  - configDigest: 07f8cdf3d06abd5c6a2040e1e6b6824ca60e7239dda3f4ee444e84ce80fe1a66
     git:
-      commitTitle: 'Merge pull request #18321 from obnoxxx/prep-v1.20.7...'
-      sha: 95a8e2a8b61cf7f8152213939f995c88a2e72ab6
+      commitTitle: 'Merge pull request #18473 from obnoxxx/prep-v1.20.8...'
+      sha: 70452ac10b697160e9f946eb9782990691927e9d
       tags:
-      - v1.20.7
+      - v1.20.8
     path: .
   path: _sources/rook
 - contents:
