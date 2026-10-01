@@ -85,12 +85,12 @@ directories:
     path: .
   path: _sources/envoy-gateway
 - contents:
-  - configDigest: 3b491adae4a55eda0a77b7177fa91ece47fb7953a0ba2cdf1d27feda571f3133
+  - configDigest: 25685b9ac44cff6223f0f8a926a94e62459d8e8c676cc8236c8290f010ecd36a
     git:
-      commitTitle: 'Merge pull request #1573 from fluxcd/release-v1.6.4...'
-      sha: 561379cd309d56a5037f2261848065eeee6a1a7a
+      commitTitle: 'Merge pull request #1598 from fluxcd/release-v1.6.5...'
+      sha: 37dce43a9bc5c89f99a44f8a6ea11f05a84f86b8
       tags:
-      - v1.6.4
+      - v1.6.5
     path: helm-controller
   - configDigest: 56075b91161166cb4f8e76cfb281ae934117aabd2623bea14f50c0dd53ea449c
     git:
@@ -99,19 +99,19 @@ directories:
       tags:
       - v1.9.4
     path: notification-controller
-  - configDigest: d847c9a7b539cc095dbf833534f481a4f70e7f00472d8f1eacb15ca0f60ca39f
+  - configDigest: a252c476b505f56e77c4e02e858f6890e1787da3d07207dbef6bb90ffc156998
     git:
-      commitTitle: 'Merge pull request #1732 from fluxcd/release-v1.9.5...'
-      sha: d5d5d2bf9d9cf3cb33c3150f47990bb22781334a
+      commitTitle: 'Merge pull request #1766 from fluxcd/release-v1.9.6...'
+      sha: 060e0d8dbc257a11cf49b9e626b63284dc385870
       tags:
-      - v1.9.5
+      - v1.9.6
     path: kustomize-controller
-  - configDigest: 2d338c6e365490209f24fae1246becf5b98c21cf1a0454aafb548737f6494cd7
+  - configDigest: e4e0bb6c1e1636d750a84add3e6f98eaab6aeefa6810fb784eb5ef1021bad34b
     git:
-      commitTitle: 'Merge pull request #2143 from fluxcd/release-v1.9.5...'
-      sha: 53194ad4730ebf07718b29d58f66efd6938fd3da
+      commitTitle: 'Merge pull request #2174 from fluxcd/release-v1.9.6...'
+      sha: 456fa323ef6a4b977f220cf2c60298bf193497ba
       tags:
-      - v1.9.5
+      - v1.9.6
     path: source-controller
   path: _sources/fluxcd
 - contents:
