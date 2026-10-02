@@ -1,12 +1,12 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: ae9cd27deeed67c465ec4f70c0f455b57bf02eaee54137cfaf04c0603e36cebf
+  - configDigest: c4f79a50f295e261f5d47b64028ceea500d5994de69bcbe9ec24412053da2541
     git:
-      commitTitle: Substrate Refinements (#3174)...
-      sha: fe6732474a96a0363dfb9822859af4e9bab360fa
+      commitTitle: Update model catalog (#3750)...
+      sha: ea5608642b9d5c94c5baf5fd9f2f9849b808e963
       tags:
-      - v1.5.0
+      - v1.6.0
     path: .
   path: _sources/agentgateway
 - contents:
