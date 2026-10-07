@@ -133,21 +133,22 @@ directories:
     path: .
   path: _sources/grafana-operator
 - contents:
-  - configDigest: 1de6863c3a51217dee10d91fc0ca8918fdb3ac904cffb2dab907a30f67124c3e
+  - configDigest: 78de5b33071b8361a5a9f74513c42afe665858819ae2e3af907ca31979b19317
     git:
-      commitTitle: 'chore: Prep for v1.6.2 release (#5217)'
-      sha: ca6c2a65454737236fb7a937bd9b17e42b07e9de
+      commitTitle: 'chore: Release 1.6.3 (#5335)...'
+      sha: c0836133e24073fcdcdbb1713aba3cc73a89d0b5
       tags:
-      - conformance/v1.6.2
+      - conformance/v1.6.3
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: e660caa9a8a87680d9a12e84dccf22ea0ef68dd70ed3e79276d568aa3aedf5d7
+  - configDigest: bfc5e2216acd18ae1431ea0055bda84cc7ee67dd969a44c4a2f8c12aebda8f07
     git:
-      commitTitle: '[2.4] Test flake fixes (#14714)...'
-      sha: cb1dd3c8102e697b218acfb5d91306e65c9e59f2
+      commitTitle: '[2.4] fix(endpoints): keep the weight of locality groups without
+        a locality (#14788)...'
+      sha: 9f94b2036f47d8e0fb363d50aa953cd998370fa5
       tags:
-      - v2.4.5
+      - v2.4.6
     path: .
   path: _sources/kgateway
 - contents:
@@ -179,12 +180,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: 07f8cdf3d06abd5c6a2040e1e6b6824ca60e7239dda3f4ee444e84ce80fe1a66
+  - configDigest: 32e3263352e314a1296cd39c99085711222eb9d3236421ba62ad4f386a824001
     git:
-      commitTitle: 'Merge pull request #18473 from obnoxxx/prep-v1.20.8...'
-      sha: 70452ac10b697160e9f946eb9782990691927e9d
+      commitTitle: 'Merge pull request #18516 from obnoxxx/prep-v1.21.0...'
+      sha: f190ca3b45f131da03641741e9e03b2584cd7d5e
       tags:
-      - v1.20.8
+      - v1.21.0
     path: .
   path: _sources/rook
 - contents:

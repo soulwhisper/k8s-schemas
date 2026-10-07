@@ -191,7 +191,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kubernetes-sigs/gateway-api
-          ref: v1.6.2
+          ref: v1.6.3
         includePaths:
           - config/crd/experimental/gateway*.yaml
 
@@ -204,7 +204,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kgateway-dev/kgateway
-          ref: v2.4.5
+          ref: v2.4.6
         includePaths:
           - install/helm/kgateway-crds/templates/*.yaml
 
@@ -258,7 +258,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/rook/rook
-          ref: v1.20.8
+          ref: v1.21.0
         includePaths:
           - deploy/examples/crds.yaml
           - deploy/olm/assemble/*.yaml
