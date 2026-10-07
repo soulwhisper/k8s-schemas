@@ -216,12 +216,12 @@ directories:
     path: .
   path: _sources/tuppr
 - contents:
-  - configDigest: ebb2db3d60668c83005abd63fd6033632bc536567a7cc5bfed245a42c2c5c9fa
+  - configDigest: 3d285ab679e55204ea0d05cc650b968b7ebc7e7786943494400d1c959a3dc8d2
     git:
-      commitTitle: 'crds: release 0.15.0'
-      sha: c0b5a51e1db5e53dcd1ea6803a29299979e49e4d
+      commitTitle: 'crds: release 0.15.1'
+      sha: 4356b8ffa48da84fe2fdc7fea7673a53390e5d26
       tags:
-      - victoria-metrics-operator-crds-0.15.0
+      - victoria-metrics-operator-crds-0.15.1
     path: .
   path: _sources/victoria-metrics
 - contents:
