@@ -35,7 +35,7 @@ jobs:
           echo "flattened $n CRD(s)"
           test "$n" -gt 0 || { echo "::error::no CRDs flattened"; exit 1; }
       - name: Render schemas + HTML site
-        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.1004.145747@sha256:f49fb3fe8985110cdd3af887dca5858376d84800d25bd782d192a98f364cafc4
+        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.1010.191442@sha256:2416b9d2754ba1cf22140253253cf228670ae416c9bca6d0cf6b563aec02088a
         env:
           BASE_PATH: "/k8s-schemas"
         with:
