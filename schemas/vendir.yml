@@ -217,7 +217,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/home-operations/kopiur
-          ref: 0.10.12
+          ref: 0.10.13
         includePaths:
           - deploy/helm/kopiur/crds/*.yaml
 
