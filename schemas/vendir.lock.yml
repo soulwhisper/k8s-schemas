@@ -115,12 +115,12 @@ directories:
     path: source-controller
   path: _sources/fluxcd
 - contents:
-  - configDigest: f17129ed65e82c31c36d3ac4037c5880f47fb3ba93d8a3ef2f5382241cd5e8cd
+  - configDigest: d7ce87d3b1daf1247a86328eafcf8d63dfc945acf6705a21d4b767d494aab8ac
     git:
-      commitTitle: Automated update for release v0.0.26
-      sha: 91642ae6aad98b4346b6852332ee83c1bce5b033
+      commitTitle: Automated update for release v0.0.27
+      sha: 7d1dd6e63e37acf9c8864d81c1d2d5bb6b074b8b
       tags:
-      - v0.0.26
+      - v0.0.27
     path: .
   path: _sources/frr-k8s
 - contents:
