@@ -152,12 +152,12 @@ directories:
     path: .
   path: _sources/kgateway
 - contents:
-  - configDigest: 8a9a619ecf60a2cfd2bc854435f6d3e6d1dfd16e0e826458cc62f58d42752db0
+  - configDigest: 0b1a2c0e27fae581322f1db24492c6b308a4735b57d33b3ec6937aedb62b854f
     git:
-      commitTitle: 'chore(release): 0.10.13 (#539)...'
-      sha: 090ad9be252561a5d4246094559d7b965575f530
+      commitTitle: 'chore(release): 0.10.14 (#567)...'
+      sha: 8ac857b79d68a67c6eca4448b1fe66ac3b3de8c2
       tags:
-      - 0.10.13
+      - 0.10.14
     path: .
   path: _sources/kopiur
 - contents:
@@ -198,12 +198,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: f54d18be9055483e507f0b4915b972322422e452b8e75b93dfd43cb137d0a81f
+  - configDigest: 70f640a39a8aa759011d3f100c45c46f31c5db0fb6e5f35861355fcb53efaf1e
     git:
-      commitTitle: Release v0.52.0 (#6810)...
-      sha: 51adbda56e2573a484786ee2663a218e265d21db
+      commitTitle: Release v0.53.0 (#6817)...
+      sha: fa7e34412a8504064a4b82f64ceb466c683d08d6
       tags:
-      - v0.52.0
+      - v0.53.0
     path: .
   path: _sources/toolhive
 - contents:
