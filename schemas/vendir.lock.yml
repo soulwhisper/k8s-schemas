@@ -198,21 +198,21 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: 70f640a39a8aa759011d3f100c45c46f31c5db0fb6e5f35861355fcb53efaf1e
+  - configDigest: 15af6b0baeff7154c9808b7fff3d551a51b77bbe96744fa71643bfa8bd355e8a
     git:
-      commitTitle: Release v0.53.0 (#6817)...
-      sha: fa7e34412a8504064a4b82f64ceb466c683d08d6
+      commitTitle: Release v0.54.0 (#6823)...
+      sha: 1ce13bbbbbe1ed9a3f40fea03ed1a42533f04cea
       tags:
-      - v0.53.0
+      - v0.54.0
     path: .
   path: _sources/toolhive
 - contents:
-  - configDigest: 6a05f3427294fb9a0a8800fc585ee40cd41cbf50729f587c06154173aa3dd546
+  - configDigest: 96df6a7ba098113c9503eb5efd3b7ae2694db7779e3bcf79f09b7028dab82871
     git:
-      commitTitle: 'chore(release): 0.5.7 (#585)'
-      sha: 2d0f0311a8fc2f3cdd639f441b88fe22efd7f32d
+      commitTitle: 'chore(release): 0.5.8 (#597)...'
+      sha: 3d3ac3397132083dac6f59da76038adadd776d8d
       tags:
-      - 0.5.7
+      - 0.5.8
     path: .
   path: _sources/tuppr
 - contents:
