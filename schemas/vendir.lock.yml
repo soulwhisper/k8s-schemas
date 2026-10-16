@@ -47,13 +47,12 @@ directories:
     path: .
   path: _sources/cloudnative-pg
 - contents:
-  - configDigest: b941620c52b5f0ddd5f4ec600f3511aaa6ab7d32edfc66c5d67381e1ee4554bb
+  - configDigest: 2ea25f3c2dfd6fcdb476fb4c043e54b8e650293b9b03ba1aa5edb734291f40ee
     git:
-      commitTitle: 'feat(release): update manifest files and bump operator version
-        (#597)...'
-      sha: 9a5522426e6ddabb914d167ee82a192c9f682c79
+      commitTitle: 'chore(operator): release version v1.7.1 (#606)...'
+      sha: 7303238002e1afc06f11ca4ae5072da331efa03d
       tags:
-      - v1.7.0
+      - v1.7.1
     path: .
   path: _sources/dragonflydb
 - contents:
@@ -67,12 +66,12 @@ directories:
     path: .
   path: _sources/external-dns
 - contents:
-  - configDigest: 12f2a53fe0c2b54f75e2c2b12390e753a65b10c17de005c4f3345ea2cb8a7e7d
+  - configDigest: 326d8138b9eb40f257bea9cc9f26e7eb106b6d9ce1d0d19fbac63714f18a06c2
     git:
-      commitTitle: Update docs for new release (#7085)...
-      sha: 9d17906e8e4c5532ffe513f72273df03b7b07bc6
+      commitTitle: 'chore: update docs for next release (#7128)...'
+      sha: a82d14894fbca270a5e87610fa1efd907dbae341
       tags:
-      - v2.12.0
+      - v2.13.0
     path: .
   path: _sources/external-secrets
 - contents:
@@ -142,13 +141,12 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: bfc5e2216acd18ae1431ea0055bda84cc7ee67dd969a44c4a2f8c12aebda8f07
+  - configDigest: 50714716d363d2a8c8c27e2885e370b9de7946b26a740cfcbd54fc80e9951db0
     git:
-      commitTitle: '[2.4] fix(endpoints): keep the weight of locality groups without
-        a locality (#14788)...'
-      sha: 9f94b2036f47d8e0fb363d50aa953cd998370fa5
+      commitTitle: '[2.4] CVE fixes (#14833)...'
+      sha: b4a2bf74294a13838abcb62dd445439efa3982ad
       tags:
-      - v2.4.6
+      - v2.4.7
     path: .
   path: _sources/kgateway
 - contents:
