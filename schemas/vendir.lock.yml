@@ -150,12 +150,12 @@ directories:
     path: .
   path: _sources/kgateway
 - contents:
-  - configDigest: 30eee868a6f15a38977074f95a595b3fc61ab212a21c6942802f8ddd73d3ce21
+  - configDigest: ca6091d096d7858978d4cdd71d134ef58070b82f25cfc18da788bf8a1bb8554e
     git:
-      commitTitle: 'chore(release): 0.10.15 (#586)...'
-      sha: d348aa85362d20d82b2a02e2bdca3d03ab19c7ad
+      commitTitle: 'chore(release): 0.10.16 (#591)...'
+      sha: a253e024d6001fe790f9d5472b3572b24352b9ad
       tags:
-      - 0.10.15
+      - 0.10.16
     path: .
   path: _sources/kopiur
 - contents:
