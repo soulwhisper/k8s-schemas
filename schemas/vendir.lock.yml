@@ -159,12 +159,12 @@ directories:
     path: .
   path: _sources/kopiur
 - contents:
-  - configDigest: 7c1af70ad8df9970301de0ef3ec1ea8692c8730995a6b5be31111698dcf1ce05
+  - configDigest: 29782f953680d22332d1657645e5490759891d44fd64ccd6834cdc854e343962
     git:
-      commitTitle: 'chore: cut release v1.19.1 (#17541)...'
-      sha: 40ec788d48bb28d83dbf85538e962a59db9d45c6
+      commitTitle: 'chore: bump chart to 3.9.2 for v1.19.2 (#18145)...'
+      sha: e63308f1e16c05cd009ac4864be6ec25c66b49be
       tags:
-      - kyverno-chart-3.9.1
+      - v1.19.2
     path: .
   path: _sources/kyverno
 - contents:
