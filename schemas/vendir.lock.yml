@@ -223,12 +223,12 @@ directories:
     path: .
   path: _sources/victoria-metrics
 - contents:
-  - configDigest: 20ea5e9741929f25584abb796a562840c432dadf5002d52db2f0a7fd8f3c838c
+  - configDigest: 38531604383036a240f2a39edb9587129a64324468a351e281545daef120ae7d
     git:
-      commitTitle: 'Merge pull request #2022 from openshift-cherrypick-robot/cherry-pick-2020-to-release-0.16...'
-      sha: 22b97b0717c74f328853d92877151392ff5ecb42
+      commitTitle: 'Merge pull request #2160 from openshift-cherrypick-robot/cherry-pick-2159-to-release-0.17...'
+      sha: d0d27f4ac04653b1dbfe0cb79b3810c85e1b9b83
       tags:
-      - v0.16.0
+      - v0.17.0
     path: .
   path: _sources/volsync
 kind: LockConfig
