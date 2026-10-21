@@ -324,6 +324,6 @@ directories:
         lazy: true
         git:
           url: https://github.com/backube/volsync
-          ref: v0.16.0
+          ref: v0.17.0
         includePaths:
           - config/crd/bases/*.yaml
