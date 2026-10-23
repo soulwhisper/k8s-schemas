@@ -168,13 +168,13 @@ directories:
     path: .
   path: _sources/kyverno
 - contents:
-  - configDigest: 6862e11470e98a659392c3e3263143fccce45f1d4c356f9fcf03d3f93679dc9d
+  - configDigest: 1332ccc78961328a742b2cd5fac99f7f4191e9814632fffd3436f94612e813e5
     git:
       commitTitle: '[prometheus-operator-crds] Update dependency prometheus-operator/prometheus-operator
-        to v0.94.1 (#7317)...'
-      sha: aaf22ea833d0daa82cc2f39ef6279be85576c8ab
+        to v0.94.2 (#7410)...'
+      sha: 538414bcc98c5076da3af8bcb674ddcc483b3155
       tags:
-      - prometheus-operator-crds-32.0.1
+      - prometheus-operator-crds-32.0.2
     path: .
   path: _sources/prometheus
 - contents:
