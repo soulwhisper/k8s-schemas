@@ -24,7 +24,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cert-manager/cert-manager
-          ref: v1.21.2
+          ref: v1.21.3
         includePaths:
           - deploy/charts/cert-manager/templates/crd-*.yaml
 
@@ -37,7 +37,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/cilium/cilium
-          ref: v1.20.3
+          ref: v1.20.4
         includePaths:
           - pkg/k8s/apis/cilium.io/client/crds/v2alpha1/*.yaml
           - pkg/k8s/apis/cilium.io/client/crds/v2/*.yaml
@@ -91,7 +91,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/kubernetes-sigs/external-dns
-          ref: v0.23.0
+          ref: v0.24.0
         includePaths:
           - config/crd/standard/*.yaml
 
@@ -104,7 +104,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/external-secrets/external-secrets
-          ref: v2.13.0
+          ref: v2.14.0
         includePaths:
           - config/crds/bases/external-*.yaml
           - config/crds/bases/generators*.yaml
@@ -272,7 +272,7 @@ directories:
         lazy: true
         git:
           url: https://github.com/giantswarm/silence-operator
-          ref: v0.21.0
+          ref: v0.21.1
         includePaths:
           - helm/silence-operator/templates/crds.yml
 
