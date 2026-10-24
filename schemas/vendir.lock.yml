@@ -10,21 +10,21 @@ directories:
     path: .
   path: _sources/agentgateway
 - contents:
-  - configDigest: aebfe407278a805e4db25b0ecf2be5897f54886b29c98604b3924a92fd7a3e9d
+  - configDigest: 2559f1159503b15ea94533a5eeecfc5c394857fc082272e80f8aa32bcc172e91
     git:
-      commitTitle: 'Merge pull request #9323 from wallrj/release-1.21-go-1.26.8...'
-      sha: 922a06aa49ee4bb802db268ef72a174af70edd32
+      commitTitle: 'Merge pull request #9501 from wallrj-cyberark/release-1.21-go-1.26.10...'
+      sha: 925c22283de556172d48d96a165dc2fa27f7a6ff
       tags:
-      - v1.21.2
+      - v1.21.3
     path: .
   path: _sources/cert-manager
 - contents:
-  - configDigest: ab9ce7b24c23b44fbba3b706efe2cb78afa69305cc5dfc41bde145ad5708c586
+  - configDigest: d587476bb32634ce1c8415e6a2cd83d7c3dba503f0a80013b18a748882950b01
     git:
-      commitTitle: Prepare for release v1.20.3...
-      sha: bf1aba7b34ab6d9c711315d78d8eefbea81962d1
+      commitTitle: Prepare for release v1.20.4...
+      sha: beb276d2f38d4aadfda14710acf8d14a0f1ba723
       tags:
-      - v1.20.3
+      - 1.20.4
     path: .
   path: _sources/cilium
 - contents:
@@ -56,22 +56,22 @@ directories:
     path: .
   path: _sources/dragonflydb
 - contents:
-  - configDigest: eae03541a7148c939c6ef62cfb2f238b25a5608f040b1bac13534e62302b4e8a
+  - configDigest: 3fcb147a9f42b2344bd0fdeb329195cdd871cdb2bbea506cbcd951382e959d0c
     git:
-      commitTitle: 'fix(cloudflare): normalize provider-specific property names at
-        ingestion (#6731)...'
-      sha: a10c5665a5bc30e7163eb17e853e317964500e99
+      commitTitle: 'fix(gateway): stop applying --annotation-filter to ListenerSets
+        (#6794)...'
+      sha: c40894ac060e0920b2b49035df18005954f83a7a
       tags:
-      - v0.23.0
+      - v0.24.0
     path: .
   path: _sources/external-dns
 - contents:
-  - configDigest: 326d8138b9eb40f257bea9cc9f26e7eb106b6d9ce1d0d19fbac63714f18a06c2
+  - configDigest: ec28fee226856516dde1888341e2af71e74225fc26d6ad8cd3c211177b62429f
     git:
-      commitTitle: 'chore: update docs for next release (#7128)...'
-      sha: a82d14894fbca270a5e87610fa1efd907dbae341
+      commitTitle: 'chore: update docs for next release (#7177)...'
+      sha: e932f3a3f6f274e8e269c01aa1f5fb3d1322e3c9
       tags:
-      - v2.13.0
+      - v2.14.0
     path: .
   path: _sources/external-secrets
 - contents:
@@ -187,12 +187,12 @@ directories:
     path: .
   path: _sources/rook
 - contents:
-  - configDigest: bdd5cb13ed52336fcd61344c14ba464455762c2093b8a1f24cdc902247043065
+  - configDigest: a162d49022d67bec857967bd9bcd99a570d8dd55fdf5dc0fec5e2867022e4b92
     git:
-      commitTitle: 'chore(release): v0.21.0 (#711)...'
-      sha: 8bb6b72b04a187a2ebaa55fc8308d45f6c7e53b9
+      commitTitle: 'chore(release): v0.21.1 (#757)...'
+      sha: f95921ba96dadbd94f684c26a6bbd37249b43e2e
       tags:
-      - v0.21.0
+      - v0.21.1
     path: .
   path: _sources/silence-operator
 - contents:
