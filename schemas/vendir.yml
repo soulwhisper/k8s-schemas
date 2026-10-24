@@ -131,28 +131,28 @@ directories:
         lazy: true
         git:
           url: https://github.com/fluxcd/helm-controller
-          ref: v1.6.5
+          ref: v1.7.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: notification-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/notification-controller
-          ref: v1.9.4
+          ref: v1.10.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: kustomize-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/kustomize-controller
-          ref: v1.9.6
+          ref: v1.10.0
         includePaths:
           - config/crd/bases/*.yaml
       - path: source-controller
         lazy: true
         git:
           url: https://github.com/fluxcd/source-controller
-          ref: v1.9.6
+          ref: v1.10.0
         includePaths:
           - config/crd/bases/*.yaml
 
