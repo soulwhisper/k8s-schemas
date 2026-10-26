@@ -75,12 +75,12 @@ directories:
     path: .
   path: _sources/external-secrets
 - contents:
-  - configDigest: c773ac9139f3b27fb36a54a64ed44b88f7822a13bf73ceb393f4735068a2b187
+  - configDigest: a4f64e5a0d3c644503974838d3cf9f30b4e05c8c1a7a549d50770a62aab793ff
     git:
-      commitTitle: '[release-1.9] Bump ratelimit version (#10136)...'
-      sha: f9f92a112a4033abed5c8d43a5f7e37da257403c
+      commitTitle: '[release-1.9] cherrypick for v1.9.3 (#10394)...'
+      sha: ec0171b20585a36de7124328c0ceaae72ad0f79f
       tags:
-      - v1.9.2
+      - v1.9.3
     path: .
   path: _sources/envoy-gateway
 - contents:
