@@ -84,12 +84,12 @@ directories:
     path: .
   path: _sources/envoy-gateway
 - contents:
-  - configDigest: b0445d4ebe74d2d9f02b839c01e9c8f9eae82a31cb1f7fac11eef40ba07fa5c7
+  - configDigest: 3fbab94cfc6e096902703b9226ee7579bab1af12484910487c6487178c5c550f
     git:
-      commitTitle: 'Merge pull request #1633 from fluxcd/release-v1.7.0...'
-      sha: 0449dee8d297bccc9365817451b4339dd6dc3ce0
+      commitTitle: 'Merge pull request #1642 from fluxcd/release-v1.7.1...'
+      sha: da037f220ee3e97eb91a70506b5c5f169e46bb68
       tags:
-      - v1.7.0
+      - v1.7.1
     path: helm-controller
   - configDigest: 97852fefbe6d03abf70e502f261c266d4f6db770c6ed5a4e5aa61361e51f69b3
     git:
@@ -98,19 +98,19 @@ directories:
       tags:
       - v1.10.0
     path: notification-controller
-  - configDigest: 8de951f75e61c694265b8c043cc4cdaa965ea92e85a0c59267f9e278327bd585
+  - configDigest: 638d4a0e8602d786dfe11d2d9f2d032a1e382aebc9761109855f88369dcaf054
     git:
-      commitTitle: 'Merge pull request #1787 from fluxcd/release-v1.10.0...'
-      sha: bb44b7103d4d697303053a600037bb94b141a921
+      commitTitle: 'Merge pull request #1794 from fluxcd/release-v1.10.1...'
+      sha: 746d9d2d360bbc7a5ee75ab79dadcf05e48ab927
       tags:
-      - v1.10.0
+      - v1.10.1
     path: kustomize-controller
-  - configDigest: f4dcf5076b99e5158928f7c48d1007aaef1df4a1ef83b26322bd834ba14cdafc
+  - configDigest: 9b0e24faf9251eacd7f3ed41de6a6b6adc9175d2d2e7e035ddded96c2107e47c
     git:
-      commitTitle: 'Merge pull request #2213 from fluxcd/backport-2212-to-release/v1.10.x...'
-      sha: 701d9a9d24763b668d6ef0634cc5f88f5bfbb861
+      commitTitle: 'Merge pull request #2218 from fluxcd/release-v1.10.1...'
+      sha: 1e5c7c19b869b78b9a46cda940fa49bfc49c8ddb
       tags:
-      - v1.10.0
+      - v1.10.1
     path: source-controller
   path: _sources/fluxcd
 - contents:
@@ -178,12 +178,12 @@ directories:
     path: .
   path: _sources/prometheus
 - contents:
-  - configDigest: 32e3263352e314a1296cd39c99085711222eb9d3236421ba62ad4f386a824001
+  - configDigest: 594e6ac4b3b7a261c3a4908c9ae3ddebd042fba2c12f0d4980df18b17b652bc7
     git:
-      commitTitle: 'Merge pull request #18516 from obnoxxx/prep-v1.21.0...'
-      sha: f190ca3b45f131da03641741e9e03b2584cd7d5e
+      commitTitle: 'Merge pull request #18635 from travisn/release-1.21.1...'
+      sha: 09d2f0d8d883b70b30de796c4390371be725ff3b
       tags:
-      - v1.21.0
+      - v1.21.1
     path: .
   path: _sources/rook
 - contents:
@@ -196,12 +196,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: add84c0dd88044841c3c327796098fa290599d164ae24d595cb02d8128190312
+  - configDigest: f560b2b6b0fa93389a462e580fa6ae135aece046d7996543f0501cafde360af9
     git:
-      commitTitle: Release v0.56.0 (#6917)...
-      sha: aed6a97023dabac2166fc0feea390f77e6c91135
+      commitTitle: Release v0.57.0 (#6947)...
+      sha: 9726b3f0f299731054745ad04aa4e7f254aaa620
       tags:
-      - v0.56.0
+      - v0.57.0
     path: .
   path: _sources/toolhive
 - contents:
