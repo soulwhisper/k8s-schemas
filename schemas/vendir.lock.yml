@@ -1,12 +1,13 @@
 apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
-  - configDigest: c4f79a50f295e261f5d47b64028ceea500d5994de69bcbe9ec24412053da2541
+  - configDigest: c4a862381ba0058dc427c5601a89f718aa8aec357492c50151f6a98bbe8705f8
     git:
-      commitTitle: Update model catalog (#3750)...
-      sha: ea5608642b9d5c94c5baf5fd9f2f9849b808e963
+      commitTitle: 'substrate: per-provider credential cache TTL and FetchSecret timeout
+        (#4170)...'
+      sha: 26f5aebe99a36a037fe54f8080a608aca5547e15
       tags:
-      - v1.6.0
+      - v1.7.0
     path: .
   path: _sources/agentgateway
 - contents:
@@ -196,12 +197,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: f560b2b6b0fa93389a462e580fa6ae135aece046d7996543f0501cafde360af9
+  - configDigest: d194105c447b3b1f481a28a39b979539b7f099615a5ee6f9677225a080c37d96
     git:
-      commitTitle: Release v0.57.0 (#6947)...
-      sha: 9726b3f0f299731054745ad04aa4e7f254aaa620
+      commitTitle: Release v0.58.0 (#6957)...
+      sha: c0b163c228fb89d10a6d1369bbf06be5f191f571
       tags:
-      - v0.57.0
+      - v0.58.0
     path: .
   path: _sources/toolhive
 - contents:
