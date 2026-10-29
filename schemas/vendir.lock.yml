@@ -197,12 +197,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: d194105c447b3b1f481a28a39b979539b7f099615a5ee6f9677225a080c37d96
+  - configDigest: f3f4c54dbd1bd17e3fb6b4007698faf810fb228905da7a2ff16acc35aba1f542
     git:
-      commitTitle: Release v0.58.0 (#6957)...
-      sha: c0b163c228fb89d10a6d1369bbf06be5f191f571
+      commitTitle: Release v0.59.0 (#6977)...
+      sha: 17109453bd40dca8a37919ff0b25b870616e8c99
       tags:
-      - v0.58.0
+      - v0.59.0
     path: .
   path: _sources/toolhive
 - contents:
@@ -215,12 +215,12 @@ directories:
     path: .
   path: _sources/tuppr
 - contents:
-  - configDigest: 3d285ab679e55204ea0d05cc650b968b7ebc7e7786943494400d1c959a3dc8d2
+  - configDigest: 30ad6e545036dbc9f7979326dcb19b1e211675da7e0d241a485cc8aa8571e625
     git:
-      commitTitle: 'crds: release 0.15.1'
-      sha: 4356b8ffa48da84fe2fdc7fea7673a53390e5d26
+      commitTitle: operator version 0.75.2 (#3319)
+      sha: 75d05706bf901c54e875f04e5d984bd5f72d4997
       tags:
-      - victoria-metrics-operator-crds-0.15.1
+      - victoria-metrics-operator-0.68.2
     path: .
   path: _sources/victoria-metrics
 - contents:
