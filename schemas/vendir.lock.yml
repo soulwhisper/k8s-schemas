@@ -133,12 +133,12 @@ directories:
     path: .
   path: _sources/grafana-operator
 - contents:
-  - configDigest: 78de5b33071b8361a5a9f74513c42afe665858819ae2e3af907ca31979b19317
+  - configDigest: c970dee6e32b5047e3d8dcb6f43db2aca45971bde0634eb819b938b94812ca10
     git:
-      commitTitle: 'chore: Release 1.6.3 (#5335)...'
-      sha: c0836133e24073fcdcdbb1713aba3cc73a89d0b5
+      commitTitle: 'chore: Prep for v1.7.0 (#5433)'
+      sha: e26d183dbbc1bb782b78addbd26faba03955c152
       tags:
-      - conformance/v1.6.3
+      - conformance/v1.7.0
     path: .
   path: _sources/gateway-api
 - contents:
@@ -169,13 +169,13 @@ directories:
     path: .
   path: _sources/kyverno
 - contents:
-  - configDigest: 1332ccc78961328a742b2cd5fac99f7f4191e9814632fffd3436f94612e813e5
+  - configDigest: 3dcd972414e8f44b2c57c6684747df955ee62633898099dfaac9952989d72510
     git:
-      commitTitle: '[prometheus-operator-crds] Update dependency prometheus-operator/prometheus-operator
-        to v0.94.2 (#7410)...'
-      sha: 538414bcc98c5076da3af8bcb674ddcc483b3155
+      commitTitle: '[prometheus-operator-crds] Fix dead Prometheus Operator design
+        link in README (#7453)...'
+      sha: 77b048eb1a417567e577543ae8e44f6ecb839c8b
       tags:
-      - prometheus-operator-crds-32.0.2
+      - prometheus-operator-crds-32.0.3
     path: .
   path: _sources/prometheus
 - contents:
