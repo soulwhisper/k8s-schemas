@@ -142,12 +142,13 @@ directories:
     path: .
   path: _sources/gateway-api
 - contents:
-  - configDigest: 50714716d363d2a8c8c27e2885e370b9de7946b26a740cfcbd54fc80e9951db0
+  - configDigest: e001a8aa84801464a355dc7b283df5e9b7b7d0937f2fb3dfefb1f09ef8e290c0
     git:
-      commitTitle: '[2.4] CVE fixes (#14833)...'
-      sha: b4a2bf74294a13838abcb62dd445439efa3982ad
+      commitTitle: '[2.5] fix(xds): release published routing configs no client holds
+        (#14964)...'
+      sha: f858390fdb26e65fdd9e2f954febcc9c68a4cc1b
       tags:
-      - v2.4.7
+      - v2.5.0
     path: .
   path: _sources/kgateway
 - contents:
@@ -197,12 +198,12 @@ directories:
     path: .
   path: _sources/silence-operator
 - contents:
-  - configDigest: f3f4c54dbd1bd17e3fb6b4007698faf810fb228905da7a2ff16acc35aba1f542
+  - configDigest: 57437b2bfe608770c6105568687ada2676752d00b293ec91d09b33bfe57e511c
     git:
-      commitTitle: Release v0.59.0 (#6977)...
-      sha: 17109453bd40dca8a37919ff0b25b870616e8c99
+      commitTitle: Release v0.60.0 (#7013)...
+      sha: b0fcff99072b50d68b7439be4b986b3ade2be4fa
       tags:
-      - v0.59.0
+      - v0.60.0
     path: .
   path: _sources/toolhive
 - contents:
