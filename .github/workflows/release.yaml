@@ -37,7 +37,7 @@ jobs:
           mkdir -p out/site
           chmod 777 out/site
       - name: Render schemas + HTML site
-        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.1102.63220@sha256:9d94be689894935c9ecfb5994044d8c6e13b97ed6c3924c6aeba29e9740761e0
+        uses: docker://ghcr.io/sholdee/crd-schema-publisher:v2026.1104.230219@sha256:c1225ec035e293aaa6e4a9494a312d7f7407295d475e442824c9baff6f0c639f
         env:
           BASE_PATH: "/k8s-schemas"
         with:
